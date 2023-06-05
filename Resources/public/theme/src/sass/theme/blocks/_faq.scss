@@ -1,0 +1,30 @@
+.block-faq {
+    h2 {
+        font-size: 19px;
+        text-transform: uppercase;
+        &:after {
+            @include line-below-left;
+        }
+    }
+
+    .block-hero {
+        position: relative;
+        z-index: 1;
+        @include centerize-background;
+
+        &:before {
+            @include opacity-overlay-background;
+        }
+
+        .block-hl {
+            font-size: 25px;
+            font-weight: bold;
+            color: #fff;
+            font-family: $font-family-serif;
+        }
+    }
+
+    .accordion-body p:last-child {
+        margin-bottom: 0 !important;
+    }
+}

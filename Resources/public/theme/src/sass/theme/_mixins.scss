@@ -1,0 +1,27 @@
+@mixin line-below-left {
+    display: block;
+    content: "";
+    margin-top: 8px;
+    height: 2px;
+    width: 30px;
+    background-color: var(--bs-primary);
+}
+
+@mixin centerize-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@mixin opacity-overlay-background {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    display: block;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: var(--bs-primary);
+    opacity: .8;
+}

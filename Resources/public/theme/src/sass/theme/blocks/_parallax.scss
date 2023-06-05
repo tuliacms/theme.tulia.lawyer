@@ -1,0 +1,44 @@
+.block.block-parallax {
+    @include centerize-background;
+    position: relative;
+    z-index: 0;
+    padding: 50px 30px 30px;
+
+    &:after {
+        display: block;
+        position: absolute;
+        content: "";
+        left: 20px;
+        top: 20px;
+        bottom: 20px;
+        right: 20px;
+        border: 1px solid rgba(255,255,255,.3);
+        pointer-events: none;
+    }
+
+    &:before {
+        @include opacity-overlay-background;
+        background-color: $parallax-bg-color;
+        opacity: $parallax-bg-opacity;
+    }
+
+    .container-xxl {
+        position: relative;
+        z-index: 1;
+        color: #fff;
+        max-width: 1000px;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .block.block-parallax {
+        padding: 200px 130px;
+
+        &:after {
+            left: 80px;
+            top: 80px;
+            bottom: 80px;
+            right: 80px;
+        }
+    }
+}

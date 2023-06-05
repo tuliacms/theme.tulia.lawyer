@@ -1,0 +1,44 @@
+header {
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    transition: .2s all;
+
+    .topbar-info {
+        border-bottom: 1px solid #ececec;
+        padding: $header-topbar-padding-y 0;
+        font-size: 14px;
+    }
+
+    .widget-space-mainmenu {
+        margin-left: auto;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    header {
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        right: 0;
+        box-shadow: 0 5px 5px rgba(0,0,0,.04);
+
+        .topbar-info {
+            padding: $header-topbar-padding-y 0;
+        }
+    }
+
+    .header-has-topbar {
+        &.body-scrolled-down {
+            header {
+                transform: translateY(-$header-topbar-height);
+            }
+        }
+
+        &.body-scrolled-up {
+            header {
+                transform: translateY(0);
+            }
+        }
+    }
+}

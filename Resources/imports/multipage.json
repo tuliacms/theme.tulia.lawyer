@@ -1,0 +1,726 @@
+{
+    "objects": [
+        {
+            "@type": "ContactForm",
+            "@id": "cde0a295-9879-4da5-a619-d8411f869f80",
+            "name": "Contact form",
+            "receivers": [
+                "contact@gmail.com"
+            ],
+            "sender_name": "Jonh Snow",
+            "sender_email": "contact@gmail.com",
+            "subject": "Contact form",
+            "message_template": "{{ contact_form_fields() }}",
+            "fields_template": "<div class=\"mb-3\">\n    [email]\n<\/div>\n<div class=\"mb-3\">\n    [message]\n<\/div>\n<div class=\"text-center\">\n    [submit]\n<\/div>",
+            "fields": [
+                {
+                    "type": "email",
+                    "name": "email",
+                    "options": {
+                        "help": null,
+                        "label": "Email address",
+                        "sender": null,
+                        "constraints": "required",
+                        "placeholder": null
+                    },
+                    "@type": "ContactFormField",
+                    "@id": "24270101-3630-4387-8921-64fe1efa6475"
+                },
+                {
+                    "type": "textarea",
+                    "name": "message",
+                    "options": {
+                        "help": null,
+                        "label": "Message",
+                        "constraints": "required",
+                        "placeholder": null
+                    },
+                    "@type": "ContactFormField",
+                    "@id": "fdeaa382-bd01-46ca-a405-f813c42e8640"
+                },
+                {
+                    "type": "submit",
+                    "name": "submit",
+                    "options": {
+                        "label": "Submit",
+                        "htmlclass": null
+                    },
+                    "@type": "ContactFormField",
+                    "@id": "79ff0f60-c415-4eb8-9207-c128837ecde6"
+                }
+            ]
+        },
+        {
+            "@type": "File",
+            "@id": "0b50a230-5858-43a1-ac14-7ed87825af8b",
+            "filepath": ".\/images\/sasha-freemind-nxo2zskhthg-unsplash-8.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "6cefb01f-350f-41e5-945e-6bcc6a4870c3",
+            "filepath": ".\/images\/luiza-braun-zylo210ujfa-unsplash-8.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "3e667b6e-5ef3-4a50-a6a7-83d6ee591d2c",
+            "filepath": ".\/images\/konstantin-dyadyun-gc96gee-v4-unsplash-8.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "7cacffa2-128e-4c2e-8c07-9966bd4be7ee",
+            "filepath": ".\/images\/kevin-schmid-tu21hjn9dwo-unsplash-8.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "e3b19fac-3d17-439f-89d0-9579a3a2caa2",
+            "filepath": ".\/images\/david-marcu-78a265wpio4-unsplash-8.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "db2568d2-2779-4811-90fa-80d148d87961",
+            "filepath": ".\/images\/artem-kovalev-fk3xucftavk-unsplash-8.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "099f27c3-eb4f-419a-81ed-36acb984131c",
+            "filepath": ".\/images\/tj-holowaychuk-1eymue-awdw-unsplash-10.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "cb5760d5-6003-409d-bf62-c19b055cdba0",
+            "filepath": ".\/images\/static-hero.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "7412d38c-8146-4697-badb-45297f2704ad",
+            "filepath": ".\/images\/people-3.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "29423e3d-7334-457c-a882-33bc6e609251",
+            "filepath": ".\/images\/people-2.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "712f7982-069e-4c8a-b05d-0e0cfd105495",
+            "filepath": ".\/images\/people-1.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "0cec5593-3791-460c-a7b1-9ca03fe15d95",
+            "filepath": ".\/images\/parallax-bg.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "5ea0316c-f77b-4a04-b1a5-e567a8d2ad07",
+            "filepath": ".\/images\/handwriting-signature.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "44073b49-3998-419c-bc85-d8e6775c00e6",
+            "filepath": ".\/images\/footer-bg.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "44e20113-3d71-4ecf-af64-45120cd9b867",
+            "filepath": ".\/images\/company-history-side.jpg"
+        },
+        {
+            "@type": "File",
+            "@id": "b7c71305-4b8a-4f5e-9500-efc02052aa3a",
+            "filepath": ".\/images\/about-us-sidebar.jpg"
+        },
+        {
+            "@type": "Menu",
+            "@id": "d8d69e8e-5123-4a74-8640-1323a7cc871a",
+            "name": "Main menu",
+            "spaces": [
+                "footer-links",
+                "mainmenu"
+            ],
+            "items": [
+                {
+                    "@id": "c2374156-75ce-4051-b26e-69f1ca461605",
+                    "link_type": "simple:homepage",
+                    "link_identity": "",
+                    "name": "Homepage",
+                    "hash": "",
+                    "position": 1,
+                    "children": [],
+                    "@type": "MenuItem"
+                },
+                {
+                    "@id": "c64c711b-442f-4495-a034-791fee6389f2",
+                    "link_type": "node:page",
+                    "link_identity": "[[@Node:fb733f99-aeec-473f-87d6-c8b30bfa32b5]]",
+                    "name": "Who we are",
+                    "hash": "",
+                    "position": 2,
+                    "children": [],
+                    "@type": "MenuItem"
+                },
+                {
+                    "@id": "4480485e-5b15-4962-bf9f-5ae088b30b49",
+                    "link_type": "node:page",
+                    "link_identity": "[[@Node:dffc9036-f061-4330-81e2-5372689676ff]]",
+                    "name": "People",
+                    "hash": "",
+                    "position": 3,
+                    "children": [],
+                    "@type": "MenuItem"
+                },
+                {
+                    "@id": "644172ee-317a-4f13-a8a7-9f1ece11e4fe",
+                    "link_type": "taxonomy:category",
+                    "link_identity": "[[@Term:8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9]]",
+                    "name": "News",
+                    "hash": "",
+                    "position": 4,
+                    "children": [],
+                    "@type": "MenuItem"
+                },
+                {
+                    "@id": "bb5b8416-d2d5-45ef-8e75-597f09ddb7cd",
+                    "link_type": "node:page",
+                    "link_identity": "[[@Node:7d95285c-9a39-4e0c-9ad3-6f8353e5df51]]",
+                    "name": "Contact",
+                    "hash": "",
+                    "position": 5,
+                    "children": [],
+                    "@type": "MenuItem"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "4feadc5b-1d57-4197-a1ea-d32ea5d87bf3",
+            "type": "page",
+            "title": "Lorem ipsum dolor sit amet",
+            "slug": "lorem-ipsum-dolor-sit-amet",
+            "main_category": "[[@Term:8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9]]",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "introduction",
+                    "uri": "introduction",
+                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius. Nam pharetra quam est. Vestibulum venenatis leo sed quam mollis, vel dictum quam mattis. Nullam id erat a sem lobortis elementum.",
+                    "@id": "07b25a50-a6d5-490a-ac7a-4005e9c75e5b"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:2:{s:8:\"sections\";a:1:{i:0;a:6:{s:4:\"rows\";a:1:{i:0;a:6:{s:7:\"columns\";a:1:{i:0;a:7:{s:2:\"id\";s:36:\"7825e0eb-1187-4431-a84c-0b32bf8aa09b\";s:4:\"type\";s:6:\"column\";s:5:\"sizes\";a:6:{s:3:\"xxl\";a:1:{s:4:\"size\";N;}s:2:\"xl\";a:1:{s:4:\"size\";N;}s:2:\"lg\";a:1:{s:4:\"size\";N;}s:2:\"md\";a:1:{s:4:\"size\";N;}s:2:\"sm\";a:1:{s:4:\"size\";N;}s:2:\"xs\";a:1:{s:4:\"size\";N;}}s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:3:\"row\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:0:{}s:6:\"blocks\";a:1:{i:0;a:6:{s:4:\"code\";s:14:\"core-textblock\";s:4:\"data\";a:2:{s:4:\"text\";s:306:\"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p>\";s:9:\"_internal\";a:0:{}}s:2:\"id\";s:36:\"8b899fda-2d04-43e6-a968-d8acd9f87b63\";s:4:\"type\";s:5:\"block\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:1;s:6:\"parent\";a:1:{s:4:\"type\";s:6:\"column\";}}s:5:\"style\";a:0:{}}}}}s:2:\"id\";s:36:\"b92f3f41-7c76-41fc-9053-c6e0021e49f0\";s:4:\"type\";s:3:\"row\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:7:\"section\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:1:{s:7:\"gutters\";s:7:\"default\";}}}s:2:\"id\";s:36:\"51906001-5e22-4d60-b05d-2b55aa013546\";s:4:\"type\";s:7:\"section\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:2:{s:4:\"type\";N;s:2:\"id\";N;}}s:4:\"data\";a:1:{s:14:\"containerWidth\";s:7:\"default\";}s:5:\"style\";a:0:{}}}s:6:\"assets\";a:0:{}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-51906001-5e22-4d60-b05d-2b55aa013546\"><div class=\"tued-container container-xxl\"><div class=\"tued-row row\" id=\"tued-row-b92f3f41-7c76-41fc-9053-c6e0021e49f0\"><div class=\"tued-column col\" id=\"tued-column-7825e0eb-1187-4431-a84c-0b32bf8aa09b\"><div id=\"tued-block-8b899fda-2d04-43e6-a968-d8acd9f87b63\" class=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p><\/div><\/div><\/div><\/div><\/section><style><\/style>",
+                    "@id": "0fc8156f-b6ee-459d-a255-50b7a0b50f7a"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "thumbnail",
+                    "uri": "thumbnail",
+                    "value": "[[@File:db2568d2-2779-4811-90fa-80d148d87961]]",
+                    "@id": "48f36017-5cdc-4dfa-b5bb-e087af05c010"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "fb733f99-aeec-473f-87d6-c8b30bfa32b5",
+            "type": "page",
+            "title": "Who we are",
+            "slug": "who-we-are",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:1:{s:8:\"sections\";a:4:{i:0;a:3:{s:2:\"id\";s:36:\"5e5f9e87-583b-45e6-881f-0fa8e54bd89b\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"35427a44-4605-4924-99bf-d0f886b0bd72\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"b698bc91-bee7-4d67-8182-d1e3d2d8c049\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"faf24abb-500e-400c-bdae-64d61d651a65\";s:4:\"code\";s:25:\"Tulia\/Lawyer:Introduction\";s:5:\"store\";a:2:{s:4:\"data\";a:4:{s:5:\"title\";s:10:\"Who we are\";s:4:\"lead\";s:71:\"Phasellus id vestibulum lorem. Etiam nec ex. Sed orci sapien, elementum\";s:7:\"content\";s:160:\"In eros ipsum, porttitor in ipsum quis, aliquet condimentum tellus. Nullam eu ultricies ipsum. Nullam volutpat ante vel dui accumsan, et fringilla nibh commodo.\";s:7:\"sublead\";s:49:\"Mauris mattis sem nisi, quis eleifend est aliquet\";}s:6:\"config\";a:3:{s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}i:1;a:3:{s:2:\"id\";s:36:\"88c7defb-bfd8-425c-be4a-7e9de0bbe443\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"a566103b-d3f4-4d0b-add8-f9a89cce0098\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"f360fcc7-840d-4c40-86fb-b771bc390dbd\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"c22dd7ff-622e-418f-b73a-d262107d7275\";s:4:\"code\";s:30:\"Tulia\/Lawyer:FeaturesCompacted\";s:5:\"store\";a:2:{s:4:\"data\";a:2:{s:5:\"title\";s:20:\"Legal Practice Areas\";s:8:\"features\";a:8:{i:0;a:4:{s:2:\"id\";s:1:\"1\";s:4:\"icon\";s:22:\"fa-solid fa-house-lock\";s:4:\"name\";s:15:\"Real estate law\";s:11:\"description\";s:105:\"Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula\";}i:1;a:4:{s:2:\"id\";s:1:\"2\";s:4:\"icon\";s:22:\"fa-solid fa-house-lock\";s:4:\"name\";s:15:\"Real estate law\";s:11:\"description\";s:105:\"Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula\";}i:2;a:4:{s:2:\"id\";s:1:\"3\";s:4:\"icon\";s:22:\"fa-solid fa-house-lock\";s:4:\"name\";s:15:\"Real estate law\";s:11:\"description\";s:105:\"Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula\";}i:3;a:4:{s:2:\"id\";s:1:\"4\";s:4:\"icon\";s:22:\"fa-solid fa-house-lock\";s:4:\"name\";s:15:\"Real estate law\";s:11:\"description\";s:105:\"Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula\";}i:4;a:4:{s:2:\"id\";s:1:\"5\";s:4:\"icon\";s:22:\"fa-solid fa-house-lock\";s:4:\"name\";s:15:\"Real estate law\";s:11:\"description\";s:105:\"Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula\";}i:5;a:4:{s:2:\"id\";s:1:\"6\";s:4:\"icon\";s:22:\"fa-solid fa-house-lock\";s:4:\"name\";s:15:\"Real estate law\";s:11:\"description\";s:105:\"Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula\";}i:6;a:4:{s:2:\"id\";s:1:\"7\";s:4:\"icon\";s:22:\"fa-solid fa-house-lock\";s:4:\"name\";s:15:\"Real estate law\";s:11:\"description\";s:105:\"Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula\";}i:7;a:4:{s:2:\"id\";s:1:\"8\";s:4:\"icon\";s:22:\"fa-solid fa-house-lock\";s:4:\"name\";s:15:\"Real estate law\";s:11:\"description\";s:105:\"Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula\";}}}s:6:\"config\";a:3:{s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}i:2;a:3:{s:2:\"id\";s:36:\"6f52a73a-eb1d-4351-89b1-9006532b0eda\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"a76177ea-cc37-47e8-b097-28e4b5b3c40e\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"3b85d9b5-4590-49f3-b29c-b215babb918f\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"2e8f64be-e801-4d4e-9e45-32f4841ce0cc\";s:4:\"code\";s:29:\"Tulia\/Lawyer:CompanyInNumbers\";s:5:\"store\";a:2:{s:4:\"data\";a:1:{s:7:\"numbers\";a:4:{i:0;a:3:{s:2:\"id\";s:1:\"1\";s:6:\"number\";i:1700;s:5:\"label\";s:15:\"Trusted clients\";}i:1;a:3:{s:2:\"id\";s:1:\"2\";s:6:\"number\";i:99;s:5:\"label\";s:16:\"Successful cases\";}i:2;a:3:{s:2:\"id\";s:1:\"3\";s:6:\"number\";i:1700;s:5:\"label\";s:15:\"Trusted clients\";}i:3;a:3:{s:2:\"id\";s:1:\"4\";s:6:\"number\";i:99;s:5:\"label\";s:16:\"Successful cases\";}}}s:6:\"config\";a:5:{s:6:\"pullUp\";s:1:\"0\";s:4:\"type\";s:0:\"\";s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}i:3;a:3:{s:2:\"id\";s:36:\"a81a6a9e-a5c6-46c7-831c-82bab63b4869\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"6ac6e105-6c34-4c32-95f5-46698866b1e0\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"3298409f-a3aa-4d4d-a945-4476da2be000\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"910cb61e-392b-4d31-acfb-fe8fed6e274e\";s:4:\"code\";s:16:\"Tulia\/Lawyer:Faq\";s:5:\"store\";a:2:{s:4:\"data\";a:4:{s:5:\"title\";s:22:\"Do you have questions?\";s:11:\"description\";s:73:\"If you do not find the answer to your question, feel free and contact us.\";s:10:\"background\";a:2:{s:2:\"id\";s:36:\"[[@File:cb5760d5-6003-409d-bf62-c19b055cdba0]]\";s:8:\"filename\";s:15:\"static-hero.jpg\";}s:3:\"faq\";a:3:{i:0;a:3:{s:2:\"id\";s:1:\"1\";s:8:\"question\";s:53:\"Phasellus id vestibulum lorem. Etiam nec vulputate ex\";s:6:\"answer\";s:99:\"<p>Sed orci sapien, <b>elementum vitae massa vitae<\/b>, consequat malesuada enim. In eros ipsum<\/p>\";}i:1;a:3:{s:2:\"id\";s:1:\"2\";s:8:\"question\";s:55:\"Lorem ipsum dolor sit amet, consectetur adipiscing elit\";s:6:\"answer\";s:265:\"<p>Mauris id ligula diam. Quisque nec augue vel ante pellentesque tempor nec aliquam orci. Curabitur a erat convallis, imperdiet dolor sed, tincidunt magna. Vestibulum volutpat mollis pharetra. Curabitur blandit libero arcu, nec tristique tortor tristique sed. <\/p>\";}i:2;a:3:{s:2:\"id\";s:1:\"3\";s:8:\"question\";s:26:\"Etiam vel orci condimentum\";s:6:\"answer\";s:145:\"<p>Pellentesque tempus quam elit, maximus luctus mi tincidunt sed. Sed varius eget erat interdum tempus. In blandit sagittis arcu, ut dictum.<\/p>\";}}}s:6:\"config\";a:3:{s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-5e5f9e87-583b-45e6-881f-0fa8e54bd89b\"><!--v-if--><div class=\"container-xxl\"><div class=\"tued-row row\" id=\"tued-row-35427a44-4605-4924-99bf-d0f886b0bd72\"><div class=\"tued-column col\" id=\"tued-column-b698bc91-bee7-4d67-8182-d1e3d2d8c049\"><div class=\"block block-introduction mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-faf24abb-500e-400c-bdae-64d61d651a65\"><div class=\"container-xxl\"><div class=\"row\"><div class=\"col\"><div class=\"block-title\"><span>Who we are<\/span><\/div><div class=\"block-inner py-3 py-md-5\"><p class=\"lead mb-4\">Phasellus id vestibulum lorem. Etiam nec ex. Sed orci sapien, elementum<\/p><p class=\"mb-4\">In eros ipsum, porttitor in ipsum quis, aliquet condimentum tellus. Nullam eu ultricies ipsum. Nullam volutpat ante vel dui accumsan, et fringilla nibh commodo.<\/p><p class=\"sublead mb-0\">Mauris mattis sem nisi, quis eleifend est aliquet<\/p><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/section><section class=\"tued-section\" id=\"tued-section-88c7defb-bfd8-425c-be4a-7e9de0bbe443\"><!--v-if--><div class=\"\"><div class=\"tued-row row g-0\" id=\"tued-row-a566103b-d3f4-4d0b-add8-f9a89cce0098\"><div class=\"tued-column col\" id=\"tued-column-f360fcc7-840d-4c40-86fb-b771bc390dbd\"><div class=\"block block-features-compacted mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-c22dd7ff-622e-418f-b73a-d262107d7275\"><div class=\"container-xxl\"><div class=\"row\"><div class=\"col\"><div class=\"block-title without-bottomline mb-4\"><span>Legal Practice Areas<\/span><\/div><\/div><\/div><\/div><div class=\"block-features-list-bg\"><div class=\"container-xxl g-0\"><div class=\"block-features-list\"><div class=\"block-feature-entry px-2 py-4 px-3\"><span class=\"block-icon mb-3\"><i class=\"fa-solid fa-house-lock\"><\/i><\/span><div class=\"block-hl mb-3\">Real estate law<\/div><p>Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula<\/p><\/div><div class=\"block-feature-entry px-2 py-4 px-3\"><span class=\"block-icon mb-3\"><i class=\"fa-solid fa-house-lock\"><\/i><\/span><div class=\"block-hl mb-3\">Real estate law<\/div><p>Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula<\/p><\/div><div class=\"block-feature-entry px-2 py-4 px-3\"><span class=\"block-icon mb-3\"><i class=\"fa-solid fa-house-lock\"><\/i><\/span><div class=\"block-hl mb-3\">Real estate law<\/div><p>Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula<\/p><\/div><div class=\"block-feature-entry px-2 py-4 px-3\"><span class=\"block-icon mb-3\"><i class=\"fa-solid fa-house-lock\"><\/i><\/span><div class=\"block-hl mb-3\">Real estate law<\/div><p>Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula<\/p><\/div><div class=\"block-feature-entry px-2 py-4 px-3\"><span class=\"block-icon mb-3\"><i class=\"fa-solid fa-house-lock\"><\/i><\/span><div class=\"block-hl mb-3\">Real estate law<\/div><p>Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula<\/p><\/div><div class=\"block-feature-entry px-2 py-4 px-3\"><span class=\"block-icon mb-3\"><i class=\"fa-solid fa-house-lock\"><\/i><\/span><div class=\"block-hl mb-3\">Real estate law<\/div><p>Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula<\/p><\/div><div class=\"block-feature-entry px-2 py-4 px-3\"><span class=\"block-icon mb-3\"><i class=\"fa-solid fa-house-lock\"><\/i><\/span><div class=\"block-hl mb-3\">Real estate law<\/div><p>Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula<\/p><\/div><div class=\"block-feature-entry px-2 py-4 px-3\"><span class=\"block-icon mb-3\"><i class=\"fa-solid fa-house-lock\"><\/i><\/span><div class=\"block-hl mb-3\">Real estate law<\/div><p>Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula<\/p><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/section><section class=\"tued-section\" id=\"tued-section-6f52a73a-eb1d-4351-89b1-9006532b0eda\"><!--v-if--><div class=\"container-xxl\"><div class=\"tued-row row\" id=\"tued-row-a76177ea-cc37-47e8-b097-28e4b5b3c40e\"><div class=\"tued-column col\" id=\"tued-column-3b85d9b5-4590-49f3-b29c-b215babb918f\"><div class=\"block block-company-numbers mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-2e8f64be-e801-4d4e-9e45-32f4841ce0cc\"><div class=\"container-xxl\"><div class=\"row\"><div class=\"block-number-entry col-6 col-md py-4\"><span class=\"block-number\">1700<\/span><span class=\"block-label\">Trusted clients<\/span><\/div><div class=\"block-number-entry col-6 col-md py-4\"><span class=\"block-number\">99<\/span><span class=\"block-label\">Successful cases<\/span><\/div><div class=\"block-number-entry col-6 col-md py-4\"><span class=\"block-number\">1700<\/span><span class=\"block-label\">Trusted clients<\/span><\/div><div class=\"block-number-entry col-6 col-md py-4\"><span class=\"block-number\">99<\/span><span class=\"block-label\">Successful cases<\/span><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/section><section class=\"tued-section\" id=\"tued-section-a81a6a9e-a5c6-46c7-831c-82bab63b4869\"><!--v-if--><div class=\"container-xxl\"><div class=\"tued-row row\" id=\"tued-row-6ac6e105-6c34-4c32-95f5-46698866b1e0\"><div class=\"tued-column col\" id=\"tued-column-3298409f-a3aa-4d4d-a945-4476da2be000\"><div class=\"block block-faq mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-910cb61e-392b-4d31-acfb-fe8fed6e274e\"><div class=\"container-fluid container-xxl g-0\"><div class=\"row\"><div class=\"col\"><h2 class=\"mb-5\">Do you have questions?<\/h2><div class=\"block-hero p-3 p-md-5\" style=\"background-image: url(&quot;\/media\/resolve\/image\/original\/[[@File:cb5760d5-6003-409d-bf62-c19b055cdba0]]\/static-hero.jpg&quot;);\"><div class=\"block-hl\">If you do not find the answer to your question, feel free and contact us.<\/div><\/div><div class=\"accordion\" id=\"accordion-910cb61e-392b-4d31-acfb-fe8fed6e274e\"><div class=\"accordion-item\"><div class=\"accordion-header\" id=\"heading-1\"><button class=\"accordion-button\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapse-1\" aria-expanded=\"true\" aria-controls=\"collapse-1\">Phasellus id vestibulum lorem. Etiam nec vulputate ex<\/button><\/div><div id=\"collapse-1\" class=\"accordion-collapse collapse show\" aria-labelledby=\"heading-1\" data-bs-parent=\"#accordion-910cb61e-392b-4d31-acfb-fe8fed6e274e\"><div class=\"accordion-body\"><p>Sed orci sapien, <b>elementum vitae massa vitae<\/b>, consequat malesuada enim. In eros ipsum<\/p><\/div><\/div><\/div><div class=\"accordion-item\"><div class=\"accordion-header\" id=\"heading-2\"><button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapse-2\" aria-expanded=\"true\" aria-controls=\"collapse-2\">Lorem ipsum dolor sit amet, consectetur adipiscing elit<\/button><\/div><div id=\"collapse-2\" class=\"accordion-collapse collapse\" aria-labelledby=\"heading-2\" data-bs-parent=\"#accordion-910cb61e-392b-4d31-acfb-fe8fed6e274e\"><div class=\"accordion-body\"><p>Mauris id ligula diam. Quisque nec augue vel ante pellentesque tempor nec aliquam orci. Curabitur a erat convallis, imperdiet dolor sed, tincidunt magna. Vestibulum volutpat mollis pharetra. Curabitur blandit libero arcu, nec tristique tortor tristique sed. <\/p><\/div><\/div><\/div><div class=\"accordion-item\"><div class=\"accordion-header\" id=\"heading-3\"><button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapse-3\" aria-expanded=\"true\" aria-controls=\"collapse-3\">Etiam vel orci condimentum<\/button><\/div><div id=\"collapse-3\" class=\"accordion-collapse collapse\" aria-labelledby=\"heading-3\" data-bs-parent=\"#accordion-910cb61e-392b-4d31-acfb-fe8fed6e274e\"><div class=\"accordion-body\"><p>Pellentesque tempus quam elit, maximus luctus mi tincidunt sed. Sed varius eget erat interdum tempus. In blandit sagittis arcu, ut dictum.<\/p><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/section>",
+                    "@id": "7c5d4a9a-5a57-4ef9-8177-a1e16781e7a2"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "d3d9997e-f20a-4d5e-84e8-8973ed1ae1d7",
+            "type": "page",
+            "title": "Cras sed elit tempus, malesuada ipsum eget",
+            "slug": "cras-sed-elit-tempus-malesuada-ipsum-eget",
+            "main_category": "[[@Term:8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9]]",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "introduction",
+                    "uri": "introduction",
+                    "value": "Cras sed elit tempus, malesuada ipsum eget, blandit turpis. Nullam accumsan dui at libero dignissim, nec rutrum lectus laoreet. Etiam ultricies neque ut massa ultricies finibus",
+                    "@id": "4573b68e-cfed-4f49-931a-0013bb10fd0c"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:2:{s:8:\"sections\";a:1:{i:0;a:6:{s:4:\"rows\";a:1:{i:0;a:6:{s:7:\"columns\";a:1:{i:0;a:7:{s:2:\"id\";s:36:\"7825e0eb-1187-4431-a84c-0b32bf8aa09b\";s:4:\"type\";s:6:\"column\";s:5:\"sizes\";a:6:{s:3:\"xxl\";a:1:{s:4:\"size\";N;}s:2:\"xl\";a:1:{s:4:\"size\";N;}s:2:\"lg\";a:1:{s:4:\"size\";N;}s:2:\"md\";a:1:{s:4:\"size\";N;}s:2:\"sm\";a:1:{s:4:\"size\";N;}s:2:\"xs\";a:1:{s:4:\"size\";N;}}s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:3:\"row\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:0:{}s:6:\"blocks\";a:1:{i:0;a:6:{s:4:\"code\";s:14:\"core-textblock\";s:4:\"data\";a:2:{s:4:\"text\";s:306:\"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p>\";s:9:\"_internal\";a:0:{}}s:2:\"id\";s:36:\"8b899fda-2d04-43e6-a968-d8acd9f87b63\";s:4:\"type\";s:5:\"block\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:1;s:6:\"parent\";a:1:{s:4:\"type\";s:6:\"column\";}}s:5:\"style\";a:0:{}}}}}s:2:\"id\";s:36:\"b92f3f41-7c76-41fc-9053-c6e0021e49f0\";s:4:\"type\";s:3:\"row\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:7:\"section\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:1:{s:7:\"gutters\";s:7:\"default\";}}}s:2:\"id\";s:36:\"51906001-5e22-4d60-b05d-2b55aa013546\";s:4:\"type\";s:7:\"section\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:2:{s:4:\"type\";N;s:2:\"id\";N;}}s:4:\"data\";a:1:{s:14:\"containerWidth\";s:7:\"default\";}s:5:\"style\";a:0:{}}}s:6:\"assets\";a:0:{}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-51906001-5e22-4d60-b05d-2b55aa013546\"><div class=\"tued-container container-xxl\"><div class=\"tued-row row\" id=\"tued-row-b92f3f41-7c76-41fc-9053-c6e0021e49f0\"><div class=\"tued-column col\" id=\"tued-column-7825e0eb-1187-4431-a84c-0b32bf8aa09b\"><div id=\"tued-block-8b899fda-2d04-43e6-a968-d8acd9f87b63\" class=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p><\/div><\/div><\/div><\/div><\/section><style><\/style>",
+                    "@id": "fcd495b2-f98a-43f9-88c1-8f09dd71f365"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "thumbnail",
+                    "uri": "thumbnail",
+                    "value": "[[@File:6cefb01f-350f-41e5-945e-6bcc6a4870c3]]",
+                    "@id": "59333993-acbe-49d1-9c7f-f9a5d3d2d931"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "8dc0882b-294d-493f-a269-2e412f8a1d80",
+            "type": "page",
+            "title": "Donec est sem, lobortis vel sem a",
+            "slug": "donec-est-sem-lobortis-vel-sem-a",
+            "main_category": "[[@Term:8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9]]",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "introduction",
+                    "uri": "introduction",
+                    "value": "Aliquam malesuada metus eget lectus elementum, sed mattis leo euismod. Donec est sem, lobortis vel sem a, elementum vehicula ipsum.",
+                    "@id": "54d49094-f34f-4cd3-a7a3-62530887ce4d"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:2:{s:8:\"sections\";a:1:{i:0;a:6:{s:4:\"rows\";a:1:{i:0;a:6:{s:7:\"columns\";a:1:{i:0;a:7:{s:2:\"id\";s:36:\"7825e0eb-1187-4431-a84c-0b32bf8aa09b\";s:4:\"type\";s:6:\"column\";s:5:\"sizes\";a:6:{s:3:\"xxl\";a:1:{s:4:\"size\";N;}s:2:\"xl\";a:1:{s:4:\"size\";N;}s:2:\"lg\";a:1:{s:4:\"size\";N;}s:2:\"md\";a:1:{s:4:\"size\";N;}s:2:\"sm\";a:1:{s:4:\"size\";N;}s:2:\"xs\";a:1:{s:4:\"size\";N;}}s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:3:\"row\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:0:{}s:6:\"blocks\";a:1:{i:0;a:6:{s:4:\"code\";s:14:\"core-textblock\";s:4:\"data\";a:2:{s:4:\"text\";s:306:\"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p>\";s:9:\"_internal\";a:0:{}}s:2:\"id\";s:36:\"8b899fda-2d04-43e6-a968-d8acd9f87b63\";s:4:\"type\";s:5:\"block\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:1;s:6:\"parent\";a:1:{s:4:\"type\";s:6:\"column\";}}s:5:\"style\";a:0:{}}}}}s:2:\"id\";s:36:\"b92f3f41-7c76-41fc-9053-c6e0021e49f0\";s:4:\"type\";s:3:\"row\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:7:\"section\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:1:{s:7:\"gutters\";s:7:\"default\";}}}s:2:\"id\";s:36:\"51906001-5e22-4d60-b05d-2b55aa013546\";s:4:\"type\";s:7:\"section\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:2:{s:4:\"type\";N;s:2:\"id\";N;}}s:4:\"data\";a:1:{s:14:\"containerWidth\";s:7:\"default\";}s:5:\"style\";a:0:{}}}s:6:\"assets\";a:0:{}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-51906001-5e22-4d60-b05d-2b55aa013546\"><div class=\"tued-container container-xxl\"><div class=\"tued-row row\" id=\"tued-row-b92f3f41-7c76-41fc-9053-c6e0021e49f0\"><div class=\"tued-column col\" id=\"tued-column-7825e0eb-1187-4431-a84c-0b32bf8aa09b\"><div id=\"tued-block-8b899fda-2d04-43e6-a968-d8acd9f87b63\" class=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p><\/div><\/div><\/div><\/div><\/section><style><\/style>",
+                    "@id": "3f2e127e-eafa-4e51-a8e3-0ba8ab7913b6"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "thumbnail",
+                    "uri": "thumbnail",
+                    "value": "[[@File:7cacffa2-128e-4c2e-8c07-9966bd4be7ee]]",
+                    "@id": "005e8ce2-b949-4542-b006-ac35fa47be81"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "7d95285c-9a39-4e0c-9ad3-6f8353e5df51",
+            "type": "page",
+            "title": "Contact",
+            "slug": "contact",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:1:{s:8:\"sections\";a:2:{i:0;a:3:{s:2:\"id\";s:36:\"0e337ee9-4ed9-4026-92f8-56c2cf432a5a\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"1b3f8440-48b6-4a9d-ba01-978920d57c8f\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"bedc19e7-751a-496a-b568-3ccb69254e88\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"3f051725-1ecd-43c6-9192-425a4e57d8df\";s:4:\"code\";s:27:\"Tulia\/Lawyer:ContactDetails\";s:5:\"store\";a:2:{s:4:\"data\";a:3:{s:5:\"title\";s:10:\"Contact us\";s:11:\"description\";s:38:\"Cras ultricies finibus nunc a egestas.\";s:8:\"sections\";a:3:{i:0;a:3:{s:2:\"id\";s:1:\"1\";s:4:\"icon\";s:24:\"fa-solid fa-location-dot\";s:7:\"content\";s:41:\"Lawyer Company Ltd.<br \/>10, Union Street\";}i:1;a:3:{s:2:\"id\";s:1:\"2\";s:4:\"icon\";s:17:\"fa-solid fa-phone\";s:7:\"content\";s:46:\"Tel: 234 234 234<br \/>Email: lawyer@lawyer.com\";}i:2;a:3:{s:2:\"id\";s:1:\"3\";s:4:\"icon\";s:17:\"fa-solid fa-clock\";s:7:\"content\";s:44:\"Mon-Sat: 08:00 \u2013 20:00<br \/>Sunday: Closed\";}}}s:6:\"config\";a:4:{s:13:\"contactFormId\";s:36:\"[[@ContactForm:cde0a295-9879-4da5-a619-d8411f869f80]]\";s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}i:1;a:3:{s:2:\"id\";s:36:\"67454221-173c-4334-8915-a557f4f4d23c\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"4917e4c4-1646-43dd-9674-5e2948d9fb23\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"b419219b-d1a4-47fa-b6a5-427639dff48b\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"a2cdaa82-e560-40e6-a795-d09283bf7fce\";s:4:\"code\";s:13:\"core-mapblock\";s:5:\"store\";a:2:{s:4:\"data\";a:1:{s:8:\"position\";a:2:{s:3:\"lat\";d:51.505;s:3:\"lng\";d:-0.09;}}s:6:\"config\";a:5:{s:4:\"zoom\";i:10;s:6:\"height\";s:3:\"300\";s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-0e337ee9-4ed9-4026-92f8-56c2cf432a5a\"><!--v-if--><div class=\"container-xxl\"><div class=\"tued-row row\" id=\"tued-row-1b3f8440-48b6-4a9d-ba01-978920d57c8f\"><div class=\"tued-column col\" id=\"tued-column-bedc19e7-751a-496a-b568-3ccb69254e88\"><div class=\"block block-contact-details mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-3f051725-1ecd-43c6-9192-425a4e57d8df\"><div class=\"container-xxl\"><div class=\"row\"><div class=\"col-12\"><div class=\"block-title mb-3 mb-md-4\"><span>Contact us<\/span><\/div><p class=\"text-center mb-5\">Cras ultricies finibus nunc a egestas.<\/p><\/div><\/div><div class=\"row\"><div class=\"col-12 col-md\"><span class=\"block-icon\"><i class=\"fa-solid fa-location-dot\"><\/i><\/span><span class=\"block-details\">Lawyer Company Ltd.<br>10, Union Street<\/span><\/div><div class=\"col-12 col-md\"><span class=\"block-icon\"><i class=\"fa-solid fa-phone\"><\/i><\/span><span class=\"block-details\">Tel: 234 234 234<br>Email: lawyer@lawyer.com<\/span><\/div><div class=\"col-12 col-md\"><span class=\"block-icon\"><i class=\"fa-solid fa-clock\"><\/i><\/span><span class=\"block-details\">Mon-Sat: 08:00 \u2013 20:00<br>Sunday: Closed<\/span><\/div><div class=\"col-12\"><div class=\"tued-dynamic-block mt-5\">[contact_form id=\"[[@ContactForm:cde0a295-9879-4da5-a619-d8411f869f80]]\"]<\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/section><section class=\"tued-section\" id=\"tued-section-67454221-173c-4334-8915-a557f4f4d23c\"><!--v-if--><div class=\"container-xxl\"><div class=\"tued-row row\" id=\"tued-row-4917e4c4-1646-43dd-9674-5e2948d9fb23\"><div class=\"tued-column col\" id=\"tued-column-b419219b-d1a4-47fa-b6a5-427639dff48b\"><div id=\"tued-block-a2cdaa82-e560-40e6-a795-d09283bf7fce\" class=\"\">[map height=\"300\" lat=\"51.505\" lng=\"-0.09\" zoom=\"10\"]<\/div><\/div><\/div><\/div><\/section>",
+                    "@id": "63a94398-4a87-4faa-a2c7-255ad982b2e0"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "8a24f186-b6d2-44ab-9f82-6944db313b04",
+            "type": "page",
+            "title": "Curabitur cursus sapien felis",
+            "slug": "curabitur-cursus-sapien-felis",
+            "main_category": "[[@Term:8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9]]",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "introduction",
+                    "uri": "introduction",
+                    "value": "Curabitur cursus sapien felis, dapibus posuere dolor ultrices quis. Nullam sagittis lectus neque, eu finibus massa varius sed.",
+                    "@id": "a6cb3ecc-42ef-4d84-b17c-421d6dcc359a"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:2:{s:8:\"sections\";a:1:{i:0;a:6:{s:4:\"rows\";a:1:{i:0;a:6:{s:7:\"columns\";a:1:{i:0;a:7:{s:2:\"id\";s:36:\"7825e0eb-1187-4431-a84c-0b32bf8aa09b\";s:4:\"type\";s:6:\"column\";s:5:\"sizes\";a:6:{s:3:\"xxl\";a:1:{s:4:\"size\";N;}s:2:\"xl\";a:1:{s:4:\"size\";N;}s:2:\"lg\";a:1:{s:4:\"size\";N;}s:2:\"md\";a:1:{s:4:\"size\";N;}s:2:\"sm\";a:1:{s:4:\"size\";N;}s:2:\"xs\";a:1:{s:4:\"size\";N;}}s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:3:\"row\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:0:{}s:6:\"blocks\";a:1:{i:0;a:6:{s:4:\"code\";s:14:\"core-textblock\";s:4:\"data\";a:2:{s:4:\"text\";s:306:\"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p>\";s:9:\"_internal\";a:0:{}}s:2:\"id\";s:36:\"8b899fda-2d04-43e6-a968-d8acd9f87b63\";s:4:\"type\";s:5:\"block\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:1;s:6:\"parent\";a:1:{s:4:\"type\";s:6:\"column\";}}s:5:\"style\";a:0:{}}}}}s:2:\"id\";s:36:\"b92f3f41-7c76-41fc-9053-c6e0021e49f0\";s:4:\"type\";s:3:\"row\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:7:\"section\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:1:{s:7:\"gutters\";s:7:\"default\";}}}s:2:\"id\";s:36:\"51906001-5e22-4d60-b05d-2b55aa013546\";s:4:\"type\";s:7:\"section\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:2:{s:4:\"type\";N;s:2:\"id\";N;}}s:4:\"data\";a:1:{s:14:\"containerWidth\";s:7:\"default\";}s:5:\"style\";a:0:{}}}s:6:\"assets\";a:0:{}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-51906001-5e22-4d60-b05d-2b55aa013546\"><div class=\"tued-container container-xxl\"><div class=\"tued-row row\" id=\"tued-row-b92f3f41-7c76-41fc-9053-c6e0021e49f0\"><div class=\"tued-column col\" id=\"tued-column-7825e0eb-1187-4431-a84c-0b32bf8aa09b\"><div id=\"tued-block-8b899fda-2d04-43e6-a968-d8acd9f87b63\" class=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p><\/div><\/div><\/div><\/div><\/section><style><\/style>",
+                    "@id": "23f6b777-5a55-4363-a2dd-7caf9e8d4b72"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "thumbnail",
+                    "uri": "thumbnail",
+                    "value": "[[@File:3e667b6e-5ef3-4a50-a6a7-83d6ee591d2c]]",
+                    "@id": "1bc4467b-96f8-4bfe-b043-906f258036a2"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "e1f7012b-9538-4684-89d8-080b804b29dd",
+            "type": "page",
+            "title": "Duis sollicitudin aliquam orci, ac rhoncus enim",
+            "slug": "duis-sollicitudin-aliquam-orci-ac-rhoncus-enim",
+            "main_category": "[[@Term:8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9]]",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "introduction",
+                    "uri": "introduction",
+                    "value": "Aliquam erat volutpat. Curabitur at lectus enim. Duis sollicitudin aliquam orci, ac rhoncus enim blandit at. Curabitur posuere sem placerat dui ullamcorper lobortis.",
+                    "@id": "72778099-0621-489d-87b3-ee214255f0dc"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:2:{s:8:\"sections\";a:1:{i:0;a:6:{s:4:\"rows\";a:1:{i:0;a:6:{s:7:\"columns\";a:1:{i:0;a:7:{s:2:\"id\";s:36:\"7825e0eb-1187-4431-a84c-0b32bf8aa09b\";s:4:\"type\";s:6:\"column\";s:5:\"sizes\";a:6:{s:3:\"xxl\";a:1:{s:4:\"size\";N;}s:2:\"xl\";a:1:{s:4:\"size\";N;}s:2:\"lg\";a:1:{s:4:\"size\";N;}s:2:\"md\";a:1:{s:4:\"size\";N;}s:2:\"sm\";a:1:{s:4:\"size\";N;}s:2:\"xs\";a:1:{s:4:\"size\";N;}}s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:3:\"row\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:0:{}s:6:\"blocks\";a:1:{i:0;a:6:{s:4:\"code\";s:14:\"core-textblock\";s:4:\"data\";a:2:{s:4:\"text\";s:306:\"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p>\";s:9:\"_internal\";a:0:{}}s:2:\"id\";s:36:\"8b899fda-2d04-43e6-a968-d8acd9f87b63\";s:4:\"type\";s:5:\"block\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:1;s:6:\"parent\";a:1:{s:4:\"type\";s:6:\"column\";}}s:5:\"style\";a:0:{}}}}}s:2:\"id\";s:36:\"b92f3f41-7c76-41fc-9053-c6e0021e49f0\";s:4:\"type\";s:3:\"row\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:7:\"section\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:1:{s:7:\"gutters\";s:7:\"default\";}}}s:2:\"id\";s:36:\"51906001-5e22-4d60-b05d-2b55aa013546\";s:4:\"type\";s:7:\"section\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:2:{s:4:\"type\";N;s:2:\"id\";N;}}s:4:\"data\";a:1:{s:14:\"containerWidth\";s:7:\"default\";}s:5:\"style\";a:0:{}}}s:6:\"assets\";a:0:{}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-51906001-5e22-4d60-b05d-2b55aa013546\"><div class=\"tued-container container-xxl\"><div class=\"tued-row row\" id=\"tued-row-b92f3f41-7c76-41fc-9053-c6e0021e49f0\"><div class=\"tued-column col\" id=\"tued-column-7825e0eb-1187-4431-a84c-0b32bf8aa09b\"><div id=\"tued-block-8b899fda-2d04-43e6-a968-d8acd9f87b63\" class=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p><\/div><\/div><\/div><\/div><\/section><style><\/style>",
+                    "@id": "afc5e28c-01fb-402e-b6d1-352a8c5b4a7e"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "thumbnail",
+                    "uri": "thumbnail",
+                    "value": "[[@File:6cefb01f-350f-41e5-945e-6bcc6a4870c3]]",
+                    "@id": "c942a496-7e2c-4650-8fa2-21aa0ea47fdc"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "879e7fac-e2a6-4b3f-80ef-adf4eac0956a",
+            "type": "page",
+            "title": "Vestibulum nisi nisi, suscipit fringilla felis sed",
+            "slug": "vestibulum-nisi-nisi-suscipit-fringilla-felis-sed",
+            "main_category": "[[@Term:8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9]]",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "introduction",
+                    "uri": "introduction",
+                    "value": "Vestibulum nisi nisi, suscipit fringilla felis sed, blandit faucibus turpis. Quisque congue pretium volutpat. Praesent faucibus tellus arcu, nec commodo urna vehicula quis.",
+                    "@id": "3938a9c6-d03e-4f38-ad9c-39e775268fc6"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:2:{s:8:\"sections\";a:1:{i:0;a:6:{s:4:\"rows\";a:1:{i:0;a:6:{s:7:\"columns\";a:1:{i:0;a:7:{s:2:\"id\";s:36:\"7825e0eb-1187-4431-a84c-0b32bf8aa09b\";s:4:\"type\";s:6:\"column\";s:5:\"sizes\";a:6:{s:3:\"xxl\";a:1:{s:4:\"size\";N;}s:2:\"xl\";a:1:{s:4:\"size\";N;}s:2:\"lg\";a:1:{s:4:\"size\";N;}s:2:\"md\";a:1:{s:4:\"size\";N;}s:2:\"sm\";a:1:{s:4:\"size\";N;}s:2:\"xs\";a:1:{s:4:\"size\";N;}}s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:3:\"row\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:0:{}s:6:\"blocks\";a:1:{i:0;a:6:{s:4:\"code\";s:14:\"core-textblock\";s:4:\"data\";a:2:{s:4:\"text\";s:306:\"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p>\";s:9:\"_internal\";a:0:{}}s:2:\"id\";s:36:\"8b899fda-2d04-43e6-a968-d8acd9f87b63\";s:4:\"type\";s:5:\"block\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:1;s:6:\"parent\";a:1:{s:4:\"type\";s:6:\"column\";}}s:5:\"style\";a:0:{}}}}}s:2:\"id\";s:36:\"b92f3f41-7c76-41fc-9053-c6e0021e49f0\";s:4:\"type\";s:3:\"row\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:7:\"section\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:1:{s:7:\"gutters\";s:7:\"default\";}}}s:2:\"id\";s:36:\"51906001-5e22-4d60-b05d-2b55aa013546\";s:4:\"type\";s:7:\"section\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:2:{s:4:\"type\";N;s:2:\"id\";N;}}s:4:\"data\";a:1:{s:14:\"containerWidth\";s:7:\"default\";}s:5:\"style\";a:0:{}}}s:6:\"assets\";a:0:{}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-51906001-5e22-4d60-b05d-2b55aa013546\"><div class=\"tued-container container-xxl\"><div class=\"tued-row row\" id=\"tued-row-b92f3f41-7c76-41fc-9053-c6e0021e49f0\"><div class=\"tued-column col\" id=\"tued-column-7825e0eb-1187-4431-a84c-0b32bf8aa09b\"><div id=\"tued-block-8b899fda-2d04-43e6-a968-d8acd9f87b63\" class=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p><\/div><\/div><\/div><\/div><\/section><style><\/style>",
+                    "@id": "facb8d1d-36bd-41ac-8ef4-57a20fc8d8f4"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "thumbnail",
+                    "uri": "thumbnail",
+                    "value": "[[@File:0b50a230-5858-43a1-ac14-7ed87825af8b]]",
+                    "@id": "e7c8c94a-76b9-4e3e-8e69-006acfffd5c4"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "3ec25268-cbd4-47a5-bfd4-754fa1fd2e6c",
+            "type": "page",
+            "title": "Homepage",
+            "slug": "homepage",
+            "purposes": [
+                "page:homepage"
+            ],
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:1:{s:8:\"sections\";a:7:{i:0;a:3:{s:2:\"id\";s:36:\"eb43ce27-7fb8-45be-a985-68c916144a30\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"555f297d-2aaf-466f-9bc6-4c7086cac857\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"e7ded569-7679-4da2-adab-614c98338f9f\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"90af922f-5f47-4b13-9903-1e9566819043\";s:4:\"code\";s:18:\"Tulia\/Lawyer:About\";s:5:\"store\";a:2:{s:4:\"data\";a:4:{s:5:\"title\";s:12:\"About lawyer\";s:7:\"content\";s:327:\"Sed posuere tincidunt magna, vitae tincidunt risus dapibus a. Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula. Phasellus accumsan porta mattis. Proin a rhoncus dui. In dapibus nisi ut malesuada hendrerit. Maecenas consectetur mollis magna, ut sagittis nisl sagittis et.\";s:9:\"signature\";a:2:{s:2:\"id\";s:36:\"[[@File:5ea0316c-f77b-4a04-b1a5-e567a8d2ad07]]\";s:8:\"filename\";s:25:\"handwriting-signature.jpg\";}s:7:\"sidebar\";a:2:{s:2:\"id\";s:36:\"[[@File:b7c71305-4b8a-4f5e-9500-efc02052aa3a]]\";s:8:\"filename\";s:20:\"about-us-sidebar.jpg\";}}s:6:\"config\";a:4:{s:6:\"pullUp\";s:1:\"1\";s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}i:1;a:3:{s:2:\"id\";s:36:\"24061461-afac-4cf6-bfa3-50dd976b7234\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"b642ba8e-3292-4030-89e5-644e346b088d\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"72033394-75b6-4f3d-b02c-7a47be93c6c7\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"9a82402d-e0c2-450b-b729-45abb7efa7e4\";s:4:\"code\";s:29:\"Tulia\/Lawyer:CompanyInNumbers\";s:5:\"store\";a:2:{s:4:\"data\";a:1:{s:7:\"numbers\";a:4:{i:0;a:3:{s:2:\"id\";s:1:\"1\";s:6:\"number\";i:1700;s:5:\"label\";s:15:\"Trusted clients\";}i:1;a:3:{s:2:\"id\";s:1:\"2\";s:6:\"number\";i:99;s:5:\"label\";s:16:\"Successful cases\";}i:2;a:3:{s:2:\"id\";s:1:\"3\";s:6:\"number\";i:1700;s:5:\"label\";s:15:\"Trusted clients\";}i:3;a:3:{s:2:\"id\";s:1:\"4\";s:6:\"number\";i:99;s:5:\"label\";s:16:\"Successful cases\";}}}s:6:\"config\";a:5:{s:6:\"pullUp\";s:1:\"0\";s:4:\"type\";s:0:\"\";s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}i:2;a:3:{s:2:\"id\";s:36:\"7fd24c15-1a6c-41f3-98a6-f7b510e6b89f\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"003196fa-0571-4f3a-97ce-7f6c3ff4824d\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"ccdef68e-fcba-4cd2-8db6-df03bd8df3c4\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"6e8a2b19-153f-40e9-b224-5c703ce31cba\";s:4:\"code\";s:25:\"Tulia\/Lawyer:Introduction\";s:5:\"store\";a:2:{s:4:\"data\";a:4:{s:5:\"title\";s:10:\"Who we are\";s:4:\"lead\";s:71:\"Phasellus id vestibulum lorem. Etiam nec ex. Sed orci sapien, elementum\";s:7:\"content\";s:160:\"In eros ipsum, porttitor in ipsum quis, aliquet condimentum tellus. Nullam eu ultricies ipsum. Nullam volutpat ante vel dui accumsan, et fringilla nibh commodo.\";s:7:\"sublead\";s:49:\"Mauris mattis sem nisi, quis eleifend est aliquet\";}s:6:\"config\";a:3:{s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}i:3;a:3:{s:2:\"id\";s:36:\"acaa679c-5c86-4b14-bae0-0ecb32d22931\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"153520a4-84fa-4aac-9fbd-c5c84df6e0d3\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:2:{i:0;a:3:{s:2:\"id\";s:36:\"708dd273-9f6f-4105-a7d7-990212a7c17e\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"3d50746e-d226-4780-812a-db1a069a328e\";s:4:\"code\";s:27:\"Tulia\/Lawyer:CompanyHistory\";s:5:\"store\";a:2:{s:4:\"data\";a:3:{s:5:\"title\";s:11:\"Our history\";s:5:\"image\";a:2:{s:2:\"id\";s:36:\"[[@File:44e20113-3d71-4ecf-af64-45120cd9b867]]\";s:8:\"filename\";s:24:\"company-history-side.jpg\";}s:7:\"entries\";a:3:{i:0;a:4:{s:2:\"id\";s:1:\"1\";s:4:\"year\";s:4:\"2022\";s:8:\"headline\";s:24:\"We're hiring new lawyers\";s:7:\"content\";s:140:\"Phasellus id vestibulum lorem. Etiam nec vulputate ex. Sed orci sapien, elementum vitae massa vitae, consequat malesuada enim. In eros ipsum\";}i:1;a:4:{s:2:\"id\";s:1:\"2\";s:4:\"year\";s:4:\"1990\";s:8:\"headline\";s:39:\"Etiam nec vulputate ex. Sed orci sapien\";s:7:\"content\";s:140:\"Phasellus id vestibulum lorem. Etiam nec vulputate ex. Sed orci sapien, elementum vitae massa vitae, consequat malesuada enim. In eros ipsum\";}i:2;a:4:{s:2:\"id\";s:1:\"3\";s:4:\"year\";s:4:\"1920\";s:8:\"headline\";s:7:\"Opening\";s:7:\"content\";s:140:\"Phasellus id vestibulum lorem. Etiam nec vulputate ex. Sed orci sapien, elementum vitae massa vitae, consequat malesuada enim. In eros ipsum\";}}}s:6:\"config\";a:3:{s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}i:1;a:3:{s:2:\"id\";s:36:\"64fd2143-0220-41c7-8cd2-db8054b5bf95\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"a22de10b-4db9-410e-ba8d-4dad88738c0d\";s:4:\"code\";s:16:\"Tulia\/Lawyer:Faq\";s:5:\"store\";a:2:{s:4:\"data\";a:4:{s:5:\"title\";s:22:\"Do you have questions?\";s:11:\"description\";s:73:\"If you do not find the answer to your question, feel free and contact us.\";s:10:\"background\";a:2:{s:2:\"id\";s:36:\"[[@File:cb5760d5-6003-409d-bf62-c19b055cdba0]]\";s:8:\"filename\";s:15:\"static-hero.jpg\";}s:3:\"faq\";a:3:{i:0;a:3:{s:2:\"id\";s:1:\"1\";s:8:\"question\";s:53:\"Phasellus id vestibulum lorem. Etiam nec vulputate ex\";s:6:\"answer\";s:99:\"<p>Sed orci sapien, <b>elementum vitae massa vitae<\/b>, consequat malesuada enim. In eros ipsum<\/p>\";}i:1;a:3:{s:2:\"id\";s:1:\"2\";s:8:\"question\";s:55:\"Lorem ipsum dolor sit amet, consectetur adipiscing elit\";s:6:\"answer\";s:265:\"<p>Mauris id ligula diam. Quisque nec augue vel ante pellentesque tempor nec aliquam orci. Curabitur a erat convallis, imperdiet dolor sed, tincidunt magna. Vestibulum volutpat mollis pharetra. Curabitur blandit libero arcu, nec tristique tortor tristique sed. <\/p>\";}i:2;a:3:{s:2:\"id\";s:1:\"3\";s:8:\"question\";s:26:\"Etiam vel orci condimentum\";s:6:\"answer\";s:145:\"<p>Pellentesque tempus quam elit, maximus luctus mi tincidunt sed. Sed varius eget erat interdum tempus. In blandit sagittis arcu, ut dictum.<\/p>\";}}}s:6:\"config\";a:3:{s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}i:4;a:3:{s:2:\"id\";s:36:\"71aaf392-7949-44f8-80ff-dbea193ba62f\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"f40bdf3f-1f92-4dca-946d-67014849327c\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"c8ec1f70-0677-4933-b372-855c6a62379d\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"a9347a96-03ee-4f54-9fc1-c43012f33eb9\";s:4:\"code\";s:21:\"Tulia\/Lawyer:Parallax\";s:5:\"store\";a:2:{s:4:\"data\";a:4:{s:5:\"title\";s:21:\"Our rules and mission\";s:10:\"contentOne\";s:345:\"<p>Sed eget interdum purus, vitae auctor lacus. Phasellus id vestibulum lorem. Etiam nec vulputate ex. Sed orci sapien, elementum vitae massa vitae, consequat malesuada enim.<\/p><p>In eros ipsum, porttitor in ipsum quis, aliquet condimentum tellus. Nullam eu ultricies ipsum. Nullam volutpat ante vel dui accumsan, et fringilla nibh commodo.<\/p>\";s:10:\"contentTwo\";s:345:\"<p>Sed eget interdum purus, vitae auctor lacus. Phasellus id vestibulum lorem. Etiam nec vulputate ex. Sed orci sapien, elementum vitae massa vitae, consequat malesuada enim.<\/p><p>In eros ipsum, porttitor in ipsum quis, aliquet condimentum tellus. Nullam eu ultricies ipsum. Nullam volutpat ante vel dui accumsan, et fringilla nibh commodo.<\/p>\";s:10:\"background\";a:2:{s:2:\"id\";s:36:\"[[@File:0cec5593-3791-460c-a7b1-9ca03fe15d95]]\";s:8:\"filename\";s:15:\"parallax-bg.jpg\";}}s:6:\"config\";a:3:{s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:5;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:5;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}i:5;a:3:{s:2:\"id\";s:36:\"f0aca109-f1c1-413b-8a22-9096bba3c404\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"1457a317-17d7-4d97-8c7f-e09e3d10130c\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"9cdd9291-b3ad-426c-bca9-c378a92ab56b\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"494d94d7-8ebb-4db0-ba2f-9f759d1c5dcd\";s:4:\"code\";s:19:\"Tulia\/Lawyer:People\";s:5:\"store\";a:2:{s:4:\"data\";a:2:{s:5:\"title\";s:16:\"People in Lawyer\";s:6:\"people\";a:3:{i:0;a:6:{s:2:\"id\";s:1:\"1\";s:5:\"image\";a:2:{s:2:\"id\";s:36:\"[[@File:29423e3d-7334-457c-a882-33bc6e609251]]\";s:8:\"filename\";s:12:\"people-2.jpg\";}s:4:\"name\";s:8:\"John Doe\";s:8:\"position\";s:12:\"Lawyer & CEO\";s:5:\"email\";s:18:\"john.doe@gmail.com\";s:5:\"phone\";s:11:\"800-700-600\";}i:1;a:6:{s:2:\"id\";s:1:\"2\";s:5:\"image\";a:2:{s:2:\"id\";s:36:\"[[@File:712f7982-069e-4c8a-b05d-0e0cfd105495]]\";s:8:\"filename\";s:12:\"people-1.jpg\";}s:4:\"name\";s:10:\"Jack Court\";s:8:\"position\";s:12:\"Lawyer & CEO\";s:5:\"email\";s:18:\"john.doe@gmail.com\";s:5:\"phone\";s:11:\"800-700-600\";}i:2;a:6:{s:2:\"id\";s:1:\"3\";s:5:\"image\";a:2:{s:2:\"id\";s:36:\"[[@File:7412d38c-8146-4697-badb-45297f2704ad]]\";s:8:\"filename\";s:12:\"people-3.jpg\";}s:4:\"name\";s:13:\"Obediah Stone\";s:8:\"position\";s:12:\"Lawyer & CEO\";s:5:\"email\";s:18:\"john.doe@gmail.com\";s:5:\"phone\";s:11:\"800-700-600\";}}}s:6:\"config\";a:3:{s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}i:6;a:3:{s:2:\"id\";s:36:\"f82cf607-18bb-4358-9ae1-f592d8be2cfd\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"539af8db-bc57-4058-9a85-e0c1362016d8\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"0f1c895c-d80c-4f1e-b2b1-638ab45c4854\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"49fbae58-3248-4fde-80a7-625c7ff42ed3\";s:4:\"code\";s:27:\"Tulia\/Lawyer:ContactDetails\";s:5:\"store\";a:2:{s:4:\"data\";a:3:{s:5:\"title\";s:10:\"Contact us\";s:11:\"description\";s:38:\"Cras ultricies finibus nunc a egestas.\";s:8:\"sections\";a:3:{i:0;a:3:{s:2:\"id\";s:1:\"1\";s:4:\"icon\";s:24:\"fa-solid fa-location-dot\";s:7:\"content\";s:41:\"Lawyer Company Ltd.<br \/>10, Union Street\";}i:1;a:3:{s:2:\"id\";s:1:\"2\";s:4:\"icon\";s:17:\"fa-solid fa-phone\";s:7:\"content\";s:46:\"Tel: 234 234 234<br \/>Email: lawyer@lawyer.com\";}i:2;a:3:{s:2:\"id\";s:1:\"3\";s:4:\"icon\";s:17:\"fa-solid fa-clock\";s:7:\"content\";s:44:\"Mon-Sat: 08:00 \u2013 20:00<br \/>Sunday: Closed\";}}}s:6:\"config\";a:4:{s:13:\"contactFormId\";s:36:\"[[@ContactForm:cde0a295-9879-4da5-a619-d8411f869f80]]\";s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-eb43ce27-7fb8-45be-a985-68c916144a30\"><!--v-if--><div class=\"container-xxl\"><div class=\"tued-row row\" id=\"tued-row-555f297d-2aaf-466f-9bc6-4c7086cac857\"><div class=\"tued-column col\" id=\"tued-column-e7ded569-7679-4da2-adab-614c98338f9f\"><div class=\"block block-about block-pull-up mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-90af922f-5f47-4b13-9903-1e9566819043\"><div class=\"row g-0\"><div class=\"col-12 col-md-6 px-0\"><div class=\"py-4 py-md-6 px-4 px-md-6\"><h2 class=\"mb-4\">About lawyer<\/h2><div class=\"mb-5\">Sed posuere tincidunt magna, vitae tincidunt risus dapibus a. Nam luctus consequat erat sed blandit. Etiam sit amet lacus scelerisque, molestie sem a, imperdiet ligula. Phasellus accumsan porta mattis. Proin a rhoncus dui. In dapibus nisi ut malesuada hendrerit. Maecenas consectetur mollis magna, ut sagittis nisl sagittis et.<\/div><div holder=\"90af922f-5f47-4b13-9903-1e9566819043\"> [image id=\"[[@File:5ea0316c-f77b-4a04-b1a5-e567a8d2ad07]]\" size=\"original\"] <\/div><\/div><\/div><div class=\"col-6 px-0 d-none d-md-block block-sidebar-bg\" style=\"background-image: url(&quot;\/media\/resolve\/image\/original\/[[@File:b7c71305-4b8a-4f5e-9500-efc02052aa3a]]\/about-us-sidebar.jpg&quot;);\"><\/div><\/div><\/div><\/div><\/div><\/div><\/section><section class=\"tued-section\" id=\"tued-section-24061461-afac-4cf6-bfa3-50dd976b7234\"><!--v-if--><div class=\"container-xxl\"><div class=\"tued-row row\" id=\"tued-row-b642ba8e-3292-4030-89e5-644e346b088d\"><div class=\"tued-column col\" id=\"tued-column-72033394-75b6-4f3d-b02c-7a47be93c6c7\"><div class=\"block block-company-numbers mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-9a82402d-e0c2-450b-b729-45abb7efa7e4\"><div class=\"container-xxl\"><div class=\"row\"><div class=\"block-number-entry col-6 col-md py-4\"><span class=\"block-number\">1700<\/span><span class=\"block-label\">Trusted clients<\/span><\/div><div class=\"block-number-entry col-6 col-md py-4\"><span class=\"block-number\">99<\/span><span class=\"block-label\">Successful cases<\/span><\/div><div class=\"block-number-entry col-6 col-md py-4\"><span class=\"block-number\">1700<\/span><span class=\"block-label\">Trusted clients<\/span><\/div><div class=\"block-number-entry col-6 col-md py-4\"><span class=\"block-number\">99<\/span><span class=\"block-label\">Successful cases<\/span><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/section><section class=\"tued-section\" id=\"tued-section-7fd24c15-1a6c-41f3-98a6-f7b510e6b89f\"><!--v-if--><div class=\"container-xxl\"><div class=\"tued-row row\" id=\"tued-row-003196fa-0571-4f3a-97ce-7f6c3ff4824d\"><div class=\"tued-column col\" id=\"tued-column-ccdef68e-fcba-4cd2-8db6-df03bd8df3c4\"><div class=\"block block-introduction mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-6e8a2b19-153f-40e9-b224-5c703ce31cba\"><div class=\"container-xxl\"><div class=\"row\"><div class=\"col\"><div class=\"block-title\"><span>Who we are<\/span><\/div><div class=\"block-inner py-3 py-md-5\"><p class=\"lead mb-4\">Phasellus id vestibulum lorem. Etiam nec ex. Sed orci sapien, elementum<\/p><p class=\"mb-4\">In eros ipsum, porttitor in ipsum quis, aliquet condimentum tellus. Nullam eu ultricies ipsum. Nullam volutpat ante vel dui accumsan, et fringilla nibh commodo.<\/p><p class=\"sublead mb-0\">Mauris mattis sem nisi, quis eleifend est aliquet<\/p><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/section><section class=\"tued-section\" id=\"tued-section-acaa679c-5c86-4b14-bae0-0ecb32d22931\"><!--v-if--><div class=\"container-xxl\"><div class=\"tued-row row\" id=\"tued-row-153520a4-84fa-4aac-9fbd-c5c84df6e0d3\"><div class=\"tued-column col\" id=\"tued-column-708dd273-9f6f-4105-a7d7-990212a7c17e\"><div class=\"block block-company-history mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-3d50746e-d226-4780-812a-db1a069a328e\"><div class=\"container-fluid container-xxl\"><div class=\"row\"><div class=\"col\"><div class=\"d-flex\"><div class=\"block-image d-none d-md-block\" style=\"background-image: url(&quot;\/media\/resolve\/image\/original\/[[@File:44e20113-3d71-4ecf-af64-45120cd9b867]]\/company-history-side.jpg&quot;);\"><\/div><div class=\"block-entries pt-2 ps-3 ps-md-5 pe-1\"><h2 class=\"mb-5\">Our history<\/h2><div class=\"block-entry mb-5\"><div class=\"block-entry-hl mb-2\"><span class=\"block-entry-date\">2022<\/span>, <span class=\"block-entry-title\">We're hiring new lawyers<\/span><\/div><p>Phasellus id vestibulum lorem. Etiam nec vulputate ex. Sed orci sapien, elementum vitae massa vitae, consequat malesuada enim. In eros ipsum<\/p><\/div><div class=\"block-entry mb-5\"><div class=\"block-entry-hl mb-2\"><span class=\"block-entry-date\">1990<\/span>, <span class=\"block-entry-title\">Etiam nec vulputate ex. Sed orci sapien<\/span><\/div><p>Phasellus id vestibulum lorem. Etiam nec vulputate ex. Sed orci sapien, elementum vitae massa vitae, consequat malesuada enim. In eros ipsum<\/p><\/div><div class=\"block-entry mb-5\"><div class=\"block-entry-hl mb-2\"><span class=\"block-entry-date\">1920<\/span>, <span class=\"block-entry-title\">Opening<\/span><\/div><p>Phasellus id vestibulum lorem. Etiam nec vulputate ex. Sed orci sapien, elementum vitae massa vitae, consequat malesuada enim. In eros ipsum<\/p><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><div class=\"tued-column col\" id=\"tued-column-64fd2143-0220-41c7-8cd2-db8054b5bf95\"><div class=\"block block-faq mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-a22de10b-4db9-410e-ba8d-4dad88738c0d\"><div class=\"container-fluid container-xxl g-0\"><div class=\"row\"><div class=\"col\"><h2 class=\"mb-5\">Do you have questions?<\/h2><div class=\"block-hero p-3 p-md-5\" style=\"background-image: url(&quot;\/media\/resolve\/image\/original\/[[@File:cb5760d5-6003-409d-bf62-c19b055cdba0]]\/static-hero.jpg&quot;);\"><div class=\"block-hl\">If you do not find the answer to your question, feel free and contact us.<\/div><\/div><div class=\"accordion\" id=\"accordion-a22de10b-4db9-410e-ba8d-4dad88738c0d\"><div class=\"accordion-item\"><div class=\"accordion-header\" id=\"heading-1\"><button class=\"accordion-button\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapse-1\" aria-expanded=\"true\" aria-controls=\"collapse-1\">Phasellus id vestibulum lorem. Etiam nec vulputate ex<\/button><\/div><div id=\"collapse-1\" class=\"accordion-collapse collapse show\" aria-labelledby=\"heading-1\" data-bs-parent=\"#accordion-a22de10b-4db9-410e-ba8d-4dad88738c0d\"><div class=\"accordion-body\"><p>Sed orci sapien, <b>elementum vitae massa vitae<\/b>, consequat malesuada enim. In eros ipsum<\/p><\/div><\/div><\/div><div class=\"accordion-item\"><div class=\"accordion-header\" id=\"heading-2\"><button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapse-2\" aria-expanded=\"true\" aria-controls=\"collapse-2\">Lorem ipsum dolor sit amet, consectetur adipiscing elit<\/button><\/div><div id=\"collapse-2\" class=\"accordion-collapse collapse\" aria-labelledby=\"heading-2\" data-bs-parent=\"#accordion-a22de10b-4db9-410e-ba8d-4dad88738c0d\"><div class=\"accordion-body\"><p>Mauris id ligula diam. Quisque nec augue vel ante pellentesque tempor nec aliquam orci. Curabitur a erat convallis, imperdiet dolor sed, tincidunt magna. Vestibulum volutpat mollis pharetra. Curabitur blandit libero arcu, nec tristique tortor tristique sed. <\/p><\/div><\/div><\/div><div class=\"accordion-item\"><div class=\"accordion-header\" id=\"heading-3\"><button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapse-3\" aria-expanded=\"true\" aria-controls=\"collapse-3\">Etiam vel orci condimentum<\/button><\/div><div id=\"collapse-3\" class=\"accordion-collapse collapse\" aria-labelledby=\"heading-3\" data-bs-parent=\"#accordion-a22de10b-4db9-410e-ba8d-4dad88738c0d\"><div class=\"accordion-body\"><p>Pellentesque tempus quam elit, maximus luctus mi tincidunt sed. Sed varius eget erat interdum tempus. In blandit sagittis arcu, ut dictum.<\/p><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/section><section class=\"tued-section\" id=\"tued-section-71aaf392-7949-44f8-80ff-dbea193ba62f\"><!--v-if--><div class=\"\"><div class=\"tued-row row g-0\" id=\"tued-row-f40bdf3f-1f92-4dca-946d-67014849327c\"><div class=\"tued-column col\" id=\"tued-column-c8ec1f70-0677-4933-b372-855c6a62379d\"><div class=\"block block-parallax mt-5 mb-5\" data-parallax-image=\"#parallax-a9347a96-03ee-4f54-9fc1-c43012f33eb9\" id=\"tued-block-a9347a96-03ee-4f54-9fc1-c43012f33eb9\" style=\"background-image: url(&quot;\/media\/resolve\/image\/original\/[[@File:0cec5593-3791-460c-a7b1-9ca03fe15d95]]\/parallax-bg.jpg&quot;);\"><div id=\"parallax-a9347a96-03ee-4f54-9fc1-c43012f33eb9\" data-speed=\"0.75\" class=\"d-none\">\/media\/resolve\/image\/original\/[[@File:0cec5593-3791-460c-a7b1-9ca03fe15d95]]\/parallax-bg.jpg<\/div><div class=\"container-xxl\"><div class=\"row\"><div class=\"col-12\"><div class=\"block-title text-white mb-4 mb-md-6\"><span>Our rules and mission<\/span><\/div><\/div><div class=\"col-12 col-md-6\"><p>Sed eget interdum purus, vitae auctor lacus. Phasellus id vestibulum lorem. Etiam nec vulputate ex. Sed orci sapien, elementum vitae massa vitae, consequat malesuada enim.<\/p><p>In eros ipsum, porttitor in ipsum quis, aliquet condimentum tellus. Nullam eu ultricies ipsum. Nullam volutpat ante vel dui accumsan, et fringilla nibh commodo.<\/p><\/div><div class=\"col-12 col-md-6\"><p>Sed eget interdum purus, vitae auctor lacus. Phasellus id vestibulum lorem. Etiam nec vulputate ex. Sed orci sapien, elementum vitae massa vitae, consequat malesuada enim.<\/p><p>In eros ipsum, porttitor in ipsum quis, aliquet condimentum tellus. Nullam eu ultricies ipsum. Nullam volutpat ante vel dui accumsan, et fringilla nibh commodo.<\/p><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/section><section class=\"tued-section\" id=\"tued-section-f0aca109-f1c1-413b-8a22-9096bba3c404\"><!--v-if--><div class=\"container-xxl\"><div class=\"tued-row row\" id=\"tued-row-1457a317-17d7-4d97-8c7f-e09e3d10130c\"><div class=\"tued-column col\" id=\"tued-column-9cdd9291-b3ad-426c-bca9-c378a92ab56b\"><div class=\"block block-people mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-494d94d7-8ebb-4db0-ba2f-9f759d1c5dcd\"><div class=\"container-xxl\"><div class=\"row\"><div class=\"col\"><div class=\"block-title mb-4 mb-md-6\"><span>People in Lawyer<\/span><\/div><div class=\"swiper\"><div class=\"swiper-wrapper\"><div class=\"swiper-slide\"><div class=\"block-person\"><div> [image id=\"[[@File:29423e3d-7334-457c-a882-33bc6e609251]]\" size=\"lawyer-square\"] <\/div><div class=\"block-person-details pt-4 pb-4\"><h4>John Doe<\/h4><span class=\"person-position\">Lawyer &amp; CEO<\/span><\/div><div class=\"block-person-contacts py-2\"><a class=\"person-email\" href=\"mailto:john.doe@gmail.com\">john.doe@gmail.com<\/a><a class=\"person-phone\" href=\"tel:800-700-600\">Tel: 800-700-600<\/a><\/div><\/div><\/div><div class=\"swiper-slide\"><div class=\"block-person\"><div> [image id=\"[[@File:712f7982-069e-4c8a-b05d-0e0cfd105495]]\" size=\"lawyer-square\"] <\/div><div class=\"block-person-details pt-4 pb-4\"><h4>Jack Court<\/h4><span class=\"person-position\">Lawyer &amp; CEO<\/span><\/div><div class=\"block-person-contacts py-2\"><a class=\"person-email\" href=\"mailto:john.doe@gmail.com\">john.doe@gmail.com<\/a><a class=\"person-phone\" href=\"tel:800-700-600\">Tel: 800-700-600<\/a><\/div><\/div><\/div><div class=\"swiper-slide\"><div class=\"block-person\"><div> [image id=\"[[@File:7412d38c-8146-4697-badb-45297f2704ad]]\" size=\"lawyer-square\"] <\/div><div class=\"block-person-details pt-4 pb-4\"><h4>Obediah Stone<\/h4><span class=\"person-position\">Lawyer &amp; CEO<\/span><\/div><div class=\"block-person-contacts py-2\"><a class=\"person-email\" href=\"mailto:john.doe@gmail.com\">john.doe@gmail.com<\/a><a class=\"person-phone\" href=\"tel:800-700-600\">Tel: 800-700-600<\/a><\/div><\/div><\/div><\/div><div class=\"swiper-button-prev\"><\/div><div class=\"swiper-button-next\"><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/section><section class=\"tued-section\" id=\"tued-section-f82cf607-18bb-4358-9ae1-f592d8be2cfd\"><!--v-if--><div class=\"container-xxl\"><div class=\"tued-row row\" id=\"tued-row-539af8db-bc57-4058-9a85-e0c1362016d8\"><div class=\"tued-column col\" id=\"tued-column-0f1c895c-d80c-4f1e-b2b1-638ab45c4854\"><div class=\"block block-contact-details mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-49fbae58-3248-4fde-80a7-625c7ff42ed3\"><div class=\"container-xxl\"><div class=\"row\"><div class=\"col-12\"><div class=\"block-title mb-3 mb-md-4\"><span>Contact us<\/span><\/div><p class=\"text-center mb-5\">Cras ultricies finibus nunc a egestas.<\/p><\/div><\/div><div class=\"row\"><div class=\"col-12 col-md\"><span class=\"block-icon\"><i class=\"fa-solid fa-location-dot\"><\/i><\/span><span class=\"block-details\">Lawyer Company Ltd.<br>10, Union Street<\/span><\/div><div class=\"col-12 col-md\"><span class=\"block-icon\"><i class=\"fa-solid fa-phone\"><\/i><\/span><span class=\"block-details\">Tel: 234 234 234<br>Email: lawyer@lawyer.com<\/span><\/div><div class=\"col-12 col-md\"><span class=\"block-icon\"><i class=\"fa-solid fa-clock\"><\/i><\/span><span class=\"block-details\">Mon-Sat: 08:00 \u2013 20:00<br>Sunday: Closed<\/span><\/div><div class=\"col-12\"><div class=\"tued-dynamic-block mt-5\">[contact_form id=\"[[@ContactForm:cde0a295-9879-4da5-a619-d8411f869f80]]\"]<\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/section>",
+                    "@id": "8c4619b0-8411-4f12-841e-bd757af2df0c"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "9fa23193-11a2-400b-8d57-aded0974b239",
+            "type": "page",
+            "title": "Phasellus suscipit sed felis at varius",
+            "slug": "phasellus-suscipit-sed-felis-at-varius",
+            "main_category": "[[@Term:8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9]]",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "introduction",
+                    "uri": "introduction",
+                    "value": "Vivamus a ipsum in mauris ultricies dictum. Phasellus suscipit sed felis at varius. Duis dictum odio ac lectus iaculis dignissim. Cras sed elit tempus.",
+                    "@id": "4e60d77c-6c60-4127-bdbe-fffb07b143a3"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:2:{s:8:\"sections\";a:1:{i:0;a:6:{s:4:\"rows\";a:1:{i:0;a:6:{s:7:\"columns\";a:1:{i:0;a:7:{s:2:\"id\";s:36:\"7825e0eb-1187-4431-a84c-0b32bf8aa09b\";s:4:\"type\";s:6:\"column\";s:5:\"sizes\";a:6:{s:3:\"xxl\";a:1:{s:4:\"size\";N;}s:2:\"xl\";a:1:{s:4:\"size\";N;}s:2:\"lg\";a:1:{s:4:\"size\";N;}s:2:\"md\";a:1:{s:4:\"size\";N;}s:2:\"sm\";a:1:{s:4:\"size\";N;}s:2:\"xs\";a:1:{s:4:\"size\";N;}}s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:3:\"row\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:0:{}s:6:\"blocks\";a:1:{i:0;a:6:{s:4:\"code\";s:14:\"core-textblock\";s:4:\"data\";a:2:{s:4:\"text\";s:306:\"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p>\";s:9:\"_internal\";a:0:{}}s:2:\"id\";s:36:\"8b899fda-2d04-43e6-a968-d8acd9f87b63\";s:4:\"type\";s:5:\"block\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:1;s:6:\"parent\";a:1:{s:4:\"type\";s:6:\"column\";}}s:5:\"style\";a:0:{}}}}}s:2:\"id\";s:36:\"b92f3f41-7c76-41fc-9053-c6e0021e49f0\";s:4:\"type\";s:3:\"row\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:7:\"section\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:1:{s:7:\"gutters\";s:7:\"default\";}}}s:2:\"id\";s:36:\"51906001-5e22-4d60-b05d-2b55aa013546\";s:4:\"type\";s:7:\"section\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:2:{s:4:\"type\";N;s:2:\"id\";N;}}s:4:\"data\";a:1:{s:14:\"containerWidth\";s:7:\"default\";}s:5:\"style\";a:0:{}}}s:6:\"assets\";a:0:{}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-51906001-5e22-4d60-b05d-2b55aa013546\"><div class=\"tued-container container-xxl\"><div class=\"tued-row row\" id=\"tued-row-b92f3f41-7c76-41fc-9053-c6e0021e49f0\"><div class=\"tued-column col\" id=\"tued-column-7825e0eb-1187-4431-a84c-0b32bf8aa09b\"><div id=\"tued-block-8b899fda-2d04-43e6-a968-d8acd9f87b63\" class=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p><\/div><\/div><\/div><\/div><\/section><style><\/style>",
+                    "@id": "a1500898-5586-4bdc-baca-675645facb54"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "thumbnail",
+                    "uri": "thumbnail",
+                    "value": "[[@File:3e667b6e-5ef3-4a50-a6a7-83d6ee591d2c]]",
+                    "@id": "e2a0c626-b4ef-446c-b538-733339063bed"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "0fa61b9a-f4e6-4121-8dbf-988b0ec9bf59",
+            "type": "page",
+            "title": "Duis tempus ultrices lacinia",
+            "slug": "duis-tempus-ultrices-lacinia",
+            "main_category": "[[@Term:8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9]]",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "introduction",
+                    "uri": "introduction",
+                    "value": "Duis tempus ultrices lacinia. In consectetur vulputate leo id condimentum. Sed sapien elit, molestie vitae lacus in, suscipit mattis orci. Vivamus vitae lacus sed ipsum dapibus pellentesque.",
+                    "@id": "281026d2-83f7-495f-9701-738590b5ed27"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:2:{s:8:\"sections\";a:1:{i:0;a:6:{s:4:\"rows\";a:1:{i:0;a:6:{s:7:\"columns\";a:1:{i:0;a:7:{s:2:\"id\";s:36:\"7825e0eb-1187-4431-a84c-0b32bf8aa09b\";s:4:\"type\";s:6:\"column\";s:5:\"sizes\";a:6:{s:3:\"xxl\";a:1:{s:4:\"size\";N;}s:2:\"xl\";a:1:{s:4:\"size\";N;}s:2:\"lg\";a:1:{s:4:\"size\";N;}s:2:\"md\";a:1:{s:4:\"size\";N;}s:2:\"sm\";a:1:{s:4:\"size\";N;}s:2:\"xs\";a:1:{s:4:\"size\";N;}}s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:3:\"row\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:0:{}s:6:\"blocks\";a:1:{i:0;a:6:{s:4:\"code\";s:14:\"core-textblock\";s:4:\"data\";a:2:{s:4:\"text\";s:306:\"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p>\";s:9:\"_internal\";a:0:{}}s:2:\"id\";s:36:\"8b899fda-2d04-43e6-a968-d8acd9f87b63\";s:4:\"type\";s:5:\"block\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:1;s:6:\"parent\";a:1:{s:4:\"type\";s:6:\"column\";}}s:5:\"style\";a:0:{}}}}}s:2:\"id\";s:36:\"b92f3f41-7c76-41fc-9053-c6e0021e49f0\";s:4:\"type\";s:3:\"row\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:7:\"section\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:1:{s:7:\"gutters\";s:7:\"default\";}}}s:2:\"id\";s:36:\"51906001-5e22-4d60-b05d-2b55aa013546\";s:4:\"type\";s:7:\"section\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:2:{s:4:\"type\";N;s:2:\"id\";N;}}s:4:\"data\";a:1:{s:14:\"containerWidth\";s:7:\"default\";}s:5:\"style\";a:0:{}}}s:6:\"assets\";a:0:{}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-51906001-5e22-4d60-b05d-2b55aa013546\"><div class=\"tued-container container-xxl\"><div class=\"tued-row row\" id=\"tued-row-b92f3f41-7c76-41fc-9053-c6e0021e49f0\"><div class=\"tued-column col\" id=\"tued-column-7825e0eb-1187-4431-a84c-0b32bf8aa09b\"><div id=\"tued-block-8b899fda-2d04-43e6-a968-d8acd9f87b63\" class=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p><\/div><\/div><\/div><\/div><\/section><style><\/style>",
+                    "@id": "fcd644c6-15a6-425c-bcc4-d5ec9f867810"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "thumbnail",
+                    "uri": "thumbnail",
+                    "value": "[[@File:e3b19fac-3d17-439f-89d0-9579a3a2caa2]]",
+                    "@id": "281caff3-ff72-43f2-8700-89f8f97b9557"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "dffc9036-f061-4330-81e2-5372689676ff",
+            "type": "page",
+            "title": "People",
+            "slug": "people",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:1:{s:8:\"sections\";a:2:{i:0;a:3:{s:2:\"id\";s:36:\"5701f07a-6355-4bbf-af6d-08154546fbe5\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"8afac3aa-7cf1-4c6e-8782-b2c0b530788e\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"68011d6e-35f8-475f-8c78-f7d7a934fe05\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"218b2830-d0ad-4583-a62f-b6a37cb9aa40\";s:4:\"code\";s:19:\"Tulia\/Lawyer:People\";s:5:\"store\";a:2:{s:4:\"data\";a:2:{s:5:\"title\";s:16:\"People in Lawyer\";s:6:\"people\";a:3:{i:0;a:6:{s:2:\"id\";s:1:\"1\";s:5:\"image\";a:2:{s:2:\"id\";s:36:\"[[@File:29423e3d-7334-457c-a882-33bc6e609251]]\";s:8:\"filename\";s:12:\"people-2.jpg\";}s:4:\"name\";s:8:\"John Doe\";s:8:\"position\";s:12:\"Lawyer & CEO\";s:5:\"email\";s:18:\"john.doe@gmail.com\";s:5:\"phone\";s:11:\"800-700-600\";}i:1;a:6:{s:2:\"id\";s:1:\"2\";s:5:\"image\";a:2:{s:2:\"id\";s:36:\"[[@File:712f7982-069e-4c8a-b05d-0e0cfd105495]]\";s:8:\"filename\";s:12:\"people-1.jpg\";}s:4:\"name\";s:10:\"Jack Court\";s:8:\"position\";s:12:\"Lawyer & CEO\";s:5:\"email\";s:18:\"john.doe@gmail.com\";s:5:\"phone\";s:11:\"800-700-600\";}i:2;a:6:{s:2:\"id\";s:1:\"3\";s:5:\"image\";a:2:{s:2:\"id\";s:36:\"[[@File:7412d38c-8146-4697-badb-45297f2704ad]]\";s:8:\"filename\";s:12:\"people-3.jpg\";}s:4:\"name\";s:13:\"Obediah Stone\";s:8:\"position\";s:12:\"Lawyer & CEO\";s:5:\"email\";s:18:\"john.doe@gmail.com\";s:5:\"phone\";s:11:\"800-700-600\";}}}s:6:\"config\";a:3:{s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}i:1;a:3:{s:2:\"id\";s:36:\"b00f6bca-b4c5-452b-9fb5-09cade5c4ebc\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:4:\"rows\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"4ee5b3e5-2779-4a70-b679-3c39b1665235\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:7:\"columns\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"0b4381c1-ca5a-4cdd-9efd-c723072523fc\";s:5:\"store\";a:2:{s:4:\"data\";a:0:{}s:6:\"config\";a:0:{}}s:6:\"blocks\";a:1:{i:0;a:3:{s:2:\"id\";s:36:\"2bbacb04-50e0-48c1-b33c-2dac615f28ef\";s:4:\"code\";s:17:\"Tulia\/Lawyer:Text\";s:5:\"store\";a:2:{s:4:\"data\";a:2:{s:5:\"title\";s:10:\"Text block\";s:7:\"content\";s:1757:\"<p>Mauris sed placerat sapien. Etiam eu elit sit amet sem rutrum rhoncus. In vulputate ultrices risus, sed consectetur ante convallis ac. Vestibulum tincidunt feugiat ipsum, sed placerat odio convallis quis. Phasellus leo lectus, interdum et hendrerit ac, lobortis ac dolor. Donec id nisl condimentum, placerat eros quis, mollis tellus. Praesent eu lorem egestas, porta lectus id, iaculis nulla. Fusce rhoncus, libero pellentesque pellentesque fringilla, velit augue fermentum lorem, porttitor condimentum orci orci eu arcu. Duis lobortis nibh ut urna rhoncus, quis tincidunt nisi tempus. Mauris interdum sapien tortor, a rhoncus quam interdum nec. Donec eget tincidunt risus. In efficitur, lectus auctor cursus facilisis, purus lacus mattis metus, sit amet ullamcorper elit magna ut elit. Integer congue, lorem vitae ullamcorper auctor, nibh nulla facilisis metus, ut facilisis arcu leo sed lectus. Cras congue elementum nisl, et pretium mi fringilla vel.<\/p><p>Sed dignissim tellus justo, at feugiat arcu condimentum id. Cras ultricies finibus nunc a egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis quis vehicula tellus. Mauris elit lacus, ornare eget orci eget, sodales bibendum tortor. Nunc quam turpis, luctus eu turpis et, molestie tincidunt nulla. Curabitur vel ipsum a ligula venenatis pellentesque eu a dui. Integer auctor odio nec porta gravida. Cras lorem massa, pretium vel dapibus id, gravida a ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque viverra elit quis leo auctor cursus. Donec non consequat metus, nec tempor ligula. Praesent dictum felis at leo faucibus porttitor. Vivamus ut sem et augue imperdiet hendrerit.<\/p>\";}s:6:\"config\";a:3:{s:12:\"__visibility\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:8:\"__margin\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";i:5;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";i:1;}}s:9:\"__padding\";a:4:{s:4:\"left\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:3:\"top\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:5:\"right\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}s:6:\"bottom\";a:6:{s:3:\"xxl\";N;s:2:\"xl\";N;s:2:\"lg\";N;s:2:\"md\";N;s:2:\"sm\";N;s:2:\"xs\";N;}}}}}}}}}}}}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-5701f07a-6355-4bbf-af6d-08154546fbe5\"><!--v-if--><div class=\"container-xxl\"><div class=\"tued-row row\" id=\"tued-row-8afac3aa-7cf1-4c6e-8782-b2c0b530788e\"><div class=\"tued-column col\" id=\"tued-column-68011d6e-35f8-475f-8c78-f7d7a934fe05\"><div class=\"block block-people mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-218b2830-d0ad-4583-a62f-b6a37cb9aa40\"><div class=\"container-xxl\"><div class=\"row\"><div class=\"col\"><div class=\"block-title mb-4 mb-md-6\"><span>People in Lawyer<\/span><\/div><div class=\"swiper\"><div class=\"swiper-wrapper\"><div class=\"swiper-slide\"><div class=\"block-person\"><div> [image id=\"[[@File:29423e3d-7334-457c-a882-33bc6e609251]]\" size=\"lawyer-square\"] <\/div><div class=\"block-person-details pt-4 pb-4\"><h4>John Doe<\/h4><span class=\"person-position\">Lawyer &amp; CEO<\/span><\/div><div class=\"block-person-contacts py-2\"><a class=\"person-email\" href=\"mailto:john.doe@gmail.com\">john.doe@gmail.com<\/a><a class=\"person-phone\" href=\"tel:800-700-600\">Tel: 800-700-600<\/a><\/div><\/div><\/div><div class=\"swiper-slide\"><div class=\"block-person\"><div> [image id=\"[[@File:712f7982-069e-4c8a-b05d-0e0cfd105495]]\" size=\"lawyer-square\"] <\/div><div class=\"block-person-details pt-4 pb-4\"><h4>Jack Court<\/h4><span class=\"person-position\">Lawyer &amp; CEO<\/span><\/div><div class=\"block-person-contacts py-2\"><a class=\"person-email\" href=\"mailto:john.doe@gmail.com\">john.doe@gmail.com<\/a><a class=\"person-phone\" href=\"tel:800-700-600\">Tel: 800-700-600<\/a><\/div><\/div><\/div><div class=\"swiper-slide\"><div class=\"block-person\"><div> [image id=\"[[@File:7412d38c-8146-4697-badb-45297f2704ad]]\" size=\"lawyer-square\"] <\/div><div class=\"block-person-details pt-4 pb-4\"><h4>Obediah Stone<\/h4><span class=\"person-position\">Lawyer &amp; CEO<\/span><\/div><div class=\"block-person-contacts py-2\"><a class=\"person-email\" href=\"mailto:john.doe@gmail.com\">john.doe@gmail.com<\/a><a class=\"person-phone\" href=\"tel:800-700-600\">Tel: 800-700-600<\/a><\/div><\/div><\/div><\/div><div class=\"swiper-button-prev\"><\/div><div class=\"swiper-button-next\"><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/section><section class=\"tued-section\" id=\"tued-section-b00f6bca-b4c5-452b-9fb5-09cade5c4ebc\"><!--v-if--><div class=\"container-xxl\"><div class=\"tued-row row\" id=\"tued-row-4ee5b3e5-2779-4a70-b679-3c39b1665235\"><div class=\"tued-column col\" id=\"tued-column-0b4381c1-ca5a-4cdd-9efd-c723072523fc\"><div class=\"block block-text mt-xl-5 mt-1 mb-xl-5 mb-1\" id=\"tued-block-2bbacb04-50e0-48c1-b33c-2dac615f28ef\"><div class=\"block-title mb-3 mb-md-4\"><span>Text block<\/span><\/div><div><p>Mauris sed placerat sapien. Etiam eu elit sit amet sem rutrum rhoncus. In vulputate ultrices risus, sed consectetur ante convallis ac. Vestibulum tincidunt feugiat ipsum, sed placerat odio convallis quis. Phasellus leo lectus, interdum et hendrerit ac, lobortis ac dolor. Donec id nisl condimentum, placerat eros quis, mollis tellus. Praesent eu lorem egestas, porta lectus id, iaculis nulla. Fusce rhoncus, libero pellentesque pellentesque fringilla, velit augue fermentum lorem, porttitor condimentum orci orci eu arcu. Duis lobortis nibh ut urna rhoncus, quis tincidunt nisi tempus. Mauris interdum sapien tortor, a rhoncus quam interdum nec. Donec eget tincidunt risus. In efficitur, lectus auctor cursus facilisis, purus lacus mattis metus, sit amet ullamcorper elit magna ut elit. Integer congue, lorem vitae ullamcorper auctor, nibh nulla facilisis metus, ut facilisis arcu leo sed lectus. Cras congue elementum nisl, et pretium mi fringilla vel.<\/p><p>Sed dignissim tellus justo, at feugiat arcu condimentum id. Cras ultricies finibus nunc a egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis quis vehicula tellus. Mauris elit lacus, ornare eget orci eget, sodales bibendum tortor. Nunc quam turpis, luctus eu turpis et, molestie tincidunt nulla. Curabitur vel ipsum a ligula venenatis pellentesque eu a dui. Integer auctor odio nec porta gravida. Cras lorem massa, pretium vel dapibus id, gravida a ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque viverra elit quis leo auctor cursus. Donec non consequat metus, nec tempor ligula. Praesent dictum felis at leo faucibus porttitor. Vivamus ut sem et augue imperdiet hendrerit.<\/p><\/div><\/div><\/div><\/div><\/div><\/section>",
+                    "@id": "7a2c59ab-70af-4ad0-8cfb-7df26948f217"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "613c8c08-bbd0-4791-8766-f80e804ec477",
+            "type": "page",
+            "title": "Sed condimentum sapien purus",
+            "slug": "sed-condimentum-sapien-purus",
+            "main_category": "[[@Term:8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9]]",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "introduction",
+                    "uri": "introduction",
+                    "value": "Sed condimentum sapien purus, sed sodales justo vestibulum blandit. Etiam aliquam urna ut felis convallis, vel mollis elit semper.",
+                    "@id": "51a630fb-7a8c-4712-b44b-d84da46e9862"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:2:{s:8:\"sections\";a:1:{i:0;a:6:{s:4:\"rows\";a:1:{i:0;a:6:{s:7:\"columns\";a:1:{i:0;a:7:{s:2:\"id\";s:36:\"7825e0eb-1187-4431-a84c-0b32bf8aa09b\";s:4:\"type\";s:6:\"column\";s:5:\"sizes\";a:6:{s:3:\"xxl\";a:1:{s:4:\"size\";N;}s:2:\"xl\";a:1:{s:4:\"size\";N;}s:2:\"lg\";a:1:{s:4:\"size\";N;}s:2:\"md\";a:1:{s:4:\"size\";N;}s:2:\"sm\";a:1:{s:4:\"size\";N;}s:2:\"xs\";a:1:{s:4:\"size\";N;}}s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:3:\"row\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:0:{}s:6:\"blocks\";a:1:{i:0;a:6:{s:4:\"code\";s:14:\"core-textblock\";s:4:\"data\";a:2:{s:4:\"text\";s:306:\"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p>\";s:9:\"_internal\";a:0:{}}s:2:\"id\";s:36:\"8b899fda-2d04-43e6-a968-d8acd9f87b63\";s:4:\"type\";s:5:\"block\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:1;s:6:\"parent\";a:1:{s:4:\"type\";s:6:\"column\";}}s:5:\"style\";a:0:{}}}}}s:2:\"id\";s:36:\"b92f3f41-7c76-41fc-9053-c6e0021e49f0\";s:4:\"type\";s:3:\"row\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:7:\"section\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:1:{s:7:\"gutters\";s:7:\"default\";}}}s:2:\"id\";s:36:\"51906001-5e22-4d60-b05d-2b55aa013546\";s:4:\"type\";s:7:\"section\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:2:{s:4:\"type\";N;s:2:\"id\";N;}}s:4:\"data\";a:1:{s:14:\"containerWidth\";s:7:\"default\";}s:5:\"style\";a:0:{}}}s:6:\"assets\";a:0:{}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-51906001-5e22-4d60-b05d-2b55aa013546\"><div class=\"tued-container container-xxl\"><div class=\"tued-row row\" id=\"tued-row-b92f3f41-7c76-41fc-9053-c6e0021e49f0\"><div class=\"tued-column col\" id=\"tued-column-7825e0eb-1187-4431-a84c-0b32bf8aa09b\"><div id=\"tued-block-8b899fda-2d04-43e6-a968-d8acd9f87b63\" class=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p><\/div><\/div><\/div><\/div><\/section><style><\/style>",
+                    "@id": "38d53373-69c0-4175-aa5d-101ac636e6b2"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "thumbnail",
+                    "uri": "thumbnail",
+                    "value": "[[@File:7cacffa2-128e-4c2e-8c07-9966bd4be7ee]]",
+                    "@id": "20464c30-f5c0-4fd7-ad0b-572e8f3dd3c5"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "c6aff61c-9cca-4e7e-8052-fd3b89ddcab4",
+            "type": "page",
+            "title": "Sed rhoncus non orci nec consectetur",
+            "slug": "sed-rhoncus-non-orci-nec-consectetur",
+            "main_category": "[[@Term:8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9]]",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "introduction",
+                    "uri": "introduction",
+                    "value": "Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius. Nam pharetra quam est",
+                    "@id": "3c1d2166-7dc0-4249-b123-ab8b10189024"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:2:{s:8:\"sections\";a:1:{i:0;a:6:{s:4:\"rows\";a:1:{i:0;a:6:{s:7:\"columns\";a:1:{i:0;a:7:{s:2:\"id\";s:36:\"7825e0eb-1187-4431-a84c-0b32bf8aa09b\";s:4:\"type\";s:6:\"column\";s:5:\"sizes\";a:6:{s:3:\"xxl\";a:1:{s:4:\"size\";N;}s:2:\"xl\";a:1:{s:4:\"size\";N;}s:2:\"lg\";a:1:{s:4:\"size\";N;}s:2:\"md\";a:1:{s:4:\"size\";N;}s:2:\"sm\";a:1:{s:4:\"size\";N;}s:2:\"xs\";a:1:{s:4:\"size\";N;}}s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:3:\"row\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:0:{}s:6:\"blocks\";a:1:{i:0;a:6:{s:4:\"code\";s:14:\"core-textblock\";s:4:\"data\";a:2:{s:4:\"text\";s:306:\"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p>\";s:9:\"_internal\";a:0:{}}s:2:\"id\";s:36:\"8b899fda-2d04-43e6-a968-d8acd9f87b63\";s:4:\"type\";s:5:\"block\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:1;s:6:\"parent\";a:1:{s:4:\"type\";s:6:\"column\";}}s:5:\"style\";a:0:{}}}}}s:2:\"id\";s:36:\"b92f3f41-7c76-41fc-9053-c6e0021e49f0\";s:4:\"type\";s:3:\"row\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:7:\"section\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:1:{s:7:\"gutters\";s:7:\"default\";}}}s:2:\"id\";s:36:\"51906001-5e22-4d60-b05d-2b55aa013546\";s:4:\"type\";s:7:\"section\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:2:{s:4:\"type\";N;s:2:\"id\";N;}}s:4:\"data\";a:1:{s:14:\"containerWidth\";s:7:\"default\";}s:5:\"style\";a:0:{}}}s:6:\"assets\";a:0:{}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-51906001-5e22-4d60-b05d-2b55aa013546\"><div class=\"tued-container container-xxl\"><div class=\"tued-row row\" id=\"tued-row-b92f3f41-7c76-41fc-9053-c6e0021e49f0\"><div class=\"tued-column col\" id=\"tued-column-7825e0eb-1187-4431-a84c-0b32bf8aa09b\"><div id=\"tued-block-8b899fda-2d04-43e6-a968-d8acd9f87b63\" class=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p><\/div><\/div><\/div><\/div><\/section><style><\/style>",
+                    "@id": "86842345-9ec5-4d41-b4dc-fb09fd6726ae"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "thumbnail",
+                    "uri": "thumbnail",
+                    "value": "[[@File:e3b19fac-3d17-439f-89d0-9579a3a2caa2]]",
+                    "@id": "cccb903b-4569-4ca6-ab19-ee2e8ebde606"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "78970e9a-9afa-432b-bc40-32187f84dab8",
+            "type": "page",
+            "title": "Ut varius consectetur nisi, eu pretium justo dapibus et",
+            "slug": "ut-varius-consectetur-nisi-eu-pretium-justo-dapibus-et",
+            "main_category": "[[@Term:8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9]]",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "introduction",
+                    "uri": "introduction",
+                    "value": "Vestibulum accumsan molestie rutrum. Ut varius consectetur nisi, eu pretium justo dapibus et. In dictum ultrices sem, in dignissim elit viverra id. Fusce ullamcorper a elit eget molestie. Sed a placerat tortor. Proin sit amet est nunc.",
+                    "@id": "8107bf0f-c309-40ff-bbf3-230729f01a15"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:2:{s:8:\"sections\";a:1:{i:0;a:6:{s:4:\"rows\";a:1:{i:0;a:6:{s:7:\"columns\";a:1:{i:0;a:7:{s:2:\"id\";s:36:\"7825e0eb-1187-4431-a84c-0b32bf8aa09b\";s:4:\"type\";s:6:\"column\";s:5:\"sizes\";a:6:{s:3:\"xxl\";a:1:{s:4:\"size\";N;}s:2:\"xl\";a:1:{s:4:\"size\";N;}s:2:\"lg\";a:1:{s:4:\"size\";N;}s:2:\"md\";a:1:{s:4:\"size\";N;}s:2:\"sm\";a:1:{s:4:\"size\";N;}s:2:\"xs\";a:1:{s:4:\"size\";N;}}s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:3:\"row\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:0:{}s:6:\"blocks\";a:1:{i:0;a:6:{s:4:\"code\";s:14:\"core-textblock\";s:4:\"data\";a:2:{s:4:\"text\";s:306:\"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p>\";s:9:\"_internal\";a:0:{}}s:2:\"id\";s:36:\"8b899fda-2d04-43e6-a968-d8acd9f87b63\";s:4:\"type\";s:5:\"block\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:1;s:6:\"parent\";a:1:{s:4:\"type\";s:6:\"column\";}}s:5:\"style\";a:0:{}}}}}s:2:\"id\";s:36:\"b92f3f41-7c76-41fc-9053-c6e0021e49f0\";s:4:\"type\";s:3:\"row\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:7:\"section\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:1:{s:7:\"gutters\";s:7:\"default\";}}}s:2:\"id\";s:36:\"51906001-5e22-4d60-b05d-2b55aa013546\";s:4:\"type\";s:7:\"section\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:2:{s:4:\"type\";N;s:2:\"id\";N;}}s:4:\"data\";a:1:{s:14:\"containerWidth\";s:7:\"default\";}s:5:\"style\";a:0:{}}}s:6:\"assets\";a:0:{}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-51906001-5e22-4d60-b05d-2b55aa013546\"><div class=\"tued-container container-xxl\"><div class=\"tued-row row\" id=\"tued-row-b92f3f41-7c76-41fc-9053-c6e0021e49f0\"><div class=\"tued-column col\" id=\"tued-column-7825e0eb-1187-4431-a84c-0b32bf8aa09b\"><div id=\"tued-block-8b899fda-2d04-43e6-a968-d8acd9f87b63\" class=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p><\/div><\/div><\/div><\/div><\/section><style><\/style>",
+                    "@id": "9f66b370-b64d-4a0c-b824-c7af64ac18ef"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "thumbnail",
+                    "uri": "thumbnail",
+                    "value": "[[@File:db2568d2-2779-4811-90fa-80d148d87961]]",
+                    "@id": "07dda79b-66fe-43a3-928b-9b82be68727d"
+                }
+            ]
+        },
+        {
+            "@type": "Node",
+            "@id": "eb9f886f-cc10-434a-9921-54b05685c7c6",
+            "type": "page",
+            "title": "Proin a tincidunt odio, ac aliquam nisi",
+            "slug": "proin-a-tincidunt-odio-ac-aliquam-nisi",
+            "main_category": "[[@Term:8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9]]",
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "introduction",
+                    "uri": "introduction",
+                    "value": "Aliquam tincidunt mollis erat in eleifend. Proin a tincidunt odio, ac aliquam nisi. Ut mi diam, laoreet vestibulum dolor id, iaculis consequat nibh.",
+                    "@id": "f0f06d0f-2818-4c39-8b79-30347d613439"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:2:{s:8:\"sections\";a:1:{i:0;a:6:{s:4:\"rows\";a:1:{i:0;a:6:{s:7:\"columns\";a:1:{i:0;a:7:{s:2:\"id\";s:36:\"7825e0eb-1187-4431-a84c-0b32bf8aa09b\";s:4:\"type\";s:6:\"column\";s:5:\"sizes\";a:6:{s:3:\"xxl\";a:1:{s:4:\"size\";N;}s:2:\"xl\";a:1:{s:4:\"size\";N;}s:2:\"lg\";a:1:{s:4:\"size\";N;}s:2:\"md\";a:1:{s:4:\"size\";N;}s:2:\"sm\";a:1:{s:4:\"size\";N;}s:2:\"xs\";a:1:{s:4:\"size\";N;}}s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:3:\"row\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:0:{}s:6:\"blocks\";a:1:{i:0;a:6:{s:4:\"code\";s:14:\"core-textblock\";s:4:\"data\";a:2:{s:4:\"text\";s:306:\"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p>\";s:9:\"_internal\";a:0:{}}s:2:\"id\";s:36:\"8b899fda-2d04-43e6-a968-d8acd9f87b63\";s:4:\"type\";s:5:\"block\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:1;s:6:\"parent\";a:1:{s:4:\"type\";s:6:\"column\";}}s:5:\"style\";a:0:{}}}}}s:2:\"id\";s:36:\"b92f3f41-7c76-41fc-9053-c6e0021e49f0\";s:4:\"type\";s:3:\"row\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:1:{s:4:\"type\";s:7:\"section\";}}s:5:\"style\";a:0:{}s:4:\"data\";a:1:{s:7:\"gutters\";s:7:\"default\";}}}s:2:\"id\";s:36:\"51906001-5e22-4d60-b05d-2b55aa013546\";s:4:\"type\";s:7:\"section\";s:8:\"metadata\";a:3:{s:7:\"hovered\";b:0;s:8:\"selected\";b:0;s:6:\"parent\";a:2:{s:4:\"type\";N;s:2:\"id\";N;}}s:4:\"data\";a:1:{s:14:\"containerWidth\";s:7:\"default\";}s:5:\"style\";a:0:{}}}s:6:\"assets\";a:0:{}}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<section class=\"tued-section\" id=\"tued-section-51906001-5e22-4d60-b05d-2b55aa013546\"><div class=\"tued-container container-xxl\"><div class=\"tued-row row\" id=\"tued-row-b92f3f41-7c76-41fc-9053-c6e0021e49f0\"><div class=\"tued-column col\" id=\"tued-column-7825e0eb-1187-4431-a84c-0b32bf8aa09b\"><div id=\"tued-block-8b899fda-2d04-43e6-a968-d8acd9f87b63\" class=\"\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor a diam eget faucibus. Suspendisse placerat augue id ultrices dignissim. Sed rutrum lectus ullamcorper, fermentum ligula non, eleifend metus. Sed rhoncus non orci nec consectetur. Ut quis arcu sit amet felis volutpat varius.<\/p><\/div><\/div><\/div><\/div><\/section><style><\/style>",
+                    "@id": "c2b32e87-9d42-4375-af2e-82b5c8835d1e"
+                },
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "thumbnail",
+                    "uri": "thumbnail",
+                    "value": "[[@File:e3b19fac-3d17-439f-89d0-9579a3a2caa2]]",
+                    "@id": "bdb0b4a6-a34d-4bb0-9336-ec40a4263908"
+                }
+            ]
+        },
+        {
+            "@type": "Term",
+            "@id": "8d3ea4be-cb34-4b50-90d2-edbd2e5d93f9",
+            "type": "category",
+            "name": "News",
+            "slug": "news",
+            "parent_id": null,
+            "position": 0,
+            "attributes": []
+        },
+        {
+            "@type": "Widget",
+            "@id": "0b70573e-6a4f-4725-ac30-6a4a8df57a96",
+            "title": "Lawyer",
+            "type": "internal.text",
+            "space": "footer-info",
+            "name": "Text in footer",
+            "html_class": "",
+            "html_id": "",
+            "styles": [],
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "In et est volutpat mi interdum congue. Quisque lacinia venenatis est, a ullamcorper lacus. Vestibulum eget cursus magna. Suspendisse rhoncus justo leo, convallis interdum lacus condimentum id.",
+                    "@id": "45940f40-6495-46d5-a458-161d00fe5c2a"
+                }
+            ]
+        },
+        {
+            "@type": "Widget",
+            "@id": "fb0c54ab-f1e2-4a56-811e-11796bc367ae",
+            "title": "Contact details",
+            "type": "internal.text",
+            "space": "footer-contact",
+            "name": "Contact details",
+            "html_class": "",
+            "html_id": "",
+            "styles": [],
+            "attributes": [
+                {
+                    "@type": "Attribute",
+                    "payload": "a:0:{}",
+                    "code": "content",
+                    "uri": "content",
+                    "value": "<p><strong>London, UK<\/strong><\/p><p><br><\/p><p>156, Mario Avenue, Benny Hill,<\/p><p>Tel: 023 555-34-54<\/p><p>E-mail: hello@lawyer.com<\/p>",
+                    "@id": "1436724c-8dd3-4d9d-aa07-4513b74363df"
+                }
+            ]
+        }
+    ]
+}

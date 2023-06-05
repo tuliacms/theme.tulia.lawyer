@@ -1,0 +1,33 @@
+.block-people {
+    .block-person {
+        img {
+            display: inline-block;
+            max-width: 100%;
+        }
+
+        .block-person-details {
+            border-bottom: 1px solid #ddd;
+
+            h4 {
+                font-size: 19px;
+            }
+            .person-position {
+                text-transform: uppercase;
+                font-size: 13px;
+            }
+        }
+
+        .block-person-contacts {
+            font-size: 15px;
+
+            .person-email {
+                display: block;
+                font-weight: normal;
+            }
+            .person-phone {
+                display: block;
+                font-weight: normal;
+            }
+        }
+    }
+}

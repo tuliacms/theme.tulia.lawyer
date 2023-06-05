@@ -1,0 +1,54 @@
+@import 'about';
+@import 'company-numbers';
+@import 'introduction';
+@import 'features';
+@import 'features-compacted';
+@import 'company-history';
+@import 'faq';
+@import 'parallax';
+@import 'people';
+@import 'contact-details';
+
+
+.block-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+    font-family: $font-family-serif;
+
+    &:after {
+        display: block;
+        content: "";
+        margin: 8px auto 0;
+        height: 1px;
+        width: 90px;
+        transform: translateY(1px);
+        background-color: var(--bs-primary);
+    }
+
+    &.text-white {
+        border-bottom: none;
+    }
+
+    &.without-bottomline {
+        border-bottom: none;
+        &:after {
+            display: none;
+        }
+    }
+    &.text-start {
+        &:after {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    /* Pulling up in homepage, when slider/hero is present */
+    .block.block-pull-up {
+        margin-top: -65px !important;
+    }
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="en" datatype="plaintext" original="tulia.lawyer-theme+intl-icu.en.xlf">
+        <body>
+            <trans-unit id="tulia.lawyer-theme.1">
+                <source>backToTop</source>
+                <target>Wróć na górę</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.2">
+                <source>footer</source>
+                <target>Stopka</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.3">
+                <source>copyrights</source>
+                <target>Prawa autorskie</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.4">
+                <source>readMore</source>
+                <target>Czytaj więcej</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.5">
+                <source>colors</source>
+                <target>Kolory</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.6">
+                <source>primaryColor</source>
+                <target>Kolor podstawowy</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.7">
+                <source>primaryColorAccented</source>
+                <target>Kolor podstawowy - Akcent (po najechaniu)</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.8">
+                <source>header</source>
+                <target>Nagłówek</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.9">
+                <source>headerTopbar</source>
+                <target>Topbar</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.10">
+                <source>headerTopbarShow</source>
+                <target>Pokaż topbar</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.11">
+                <source>headerTopbarTextLeft</source>
+                <target>Tekst po lewej</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.12">
+                <source>headerTopbarTextLeftHelp</source>
+                <target>Może zawierać kod HTML</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.13">
+                <source>headerTopbarTextRight</source>
+                <target>Tekst po prawej</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.14">
+                <source>headerTopbarTextRightHelp</source>
+                <target>Może zawierać kod HTML</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.15">
+                <source>staticHero</source>
+                <target>Statczny baner</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.16">
+                <source>staticHeroBackgroundImage</source>
+                <target>Obrazek tła</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.17">
+                <source>staticHeroAboveLine</source>
+                <target>Tekst powyżej linii</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.18">
+                <source>staticHeroHeadline</source>
+                <target>Nagłówek</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.19">
+                <source>staticHeroDescription</source>
+                <target>Opis</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.20">
+                <source>footerSocialMedia</source>
+                <target>Ikonki social mediów w stopce</target>
+            </trans-unit>
+            <trans-unit id="tulia.lawyer-theme.21">
+                <source>footerBackgroundImage</source>
+                <target>Obrazek tła stopki</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

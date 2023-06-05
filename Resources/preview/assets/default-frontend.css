@@ -1,0 +1,51 @@
+/*!**********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/default-stylesheet.scss ***!
+  \**********************************************************************************************************************/
+.tulia-navbar.navbar-nav {
+  --tulia-navbar-horizontal-submenu-bg: rgb(248,249,250);
+  --tulia-navbar-horizontal-submenu-padding-x: 20px;
+  --tulia-navbar-horizontal-submenu-padding-y: 0;
+  --tulia-navbar-horizontal-submenu-width: 200px;
+  list-style: none; }
+  .tulia-navbar.navbar-nav .nav-item {
+    list-style: none; }
+  .tulia-navbar.navbar-nav.tulia-navbar__horizontal .submenu {
+    background-color: var(--tulia-navbar-horizontal-submenu-bg);
+    list-style: none;
+    padding: var(--tulia-navbar-horizontal-submenu-padding-y) var(--tulia-navbar-horizontal-submenu-padding-x);
+    margin: 0; }
+  .tulia-navbar.navbar-nav.tulia-navbar__vertical {
+    display: block; }
+    .tulia-navbar.navbar-nav.tulia-navbar__vertical .nav-item {
+      display: block; }
+  @media only screen and (min-width: 300px) {
+    .tulia-navbar.navbar-nav {
+      --tulia-navbar-horizontal-submenu-padding-x: 0px; }
+      .tulia-navbar.navbar-nav.tulia-navbar__horizontal .nav-item.has-children {
+        position: relative; }
+        .tulia-navbar.navbar-nav.tulia-navbar__horizontal .nav-item.has-children > .submenu {
+          display: none; }
+        .tulia-navbar.navbar-nav.tulia-navbar__horizontal .nav-item.has-children:hover > .submenu {
+          display: block; }
+      .tulia-navbar.navbar-nav.tulia-navbar__horizontal .submenu {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        z-index: 10;
+        width: var(--tulia-navbar-horizontal-submenu-width); }
+        .tulia-navbar.navbar-nav.tulia-navbar__horizontal .submenu .submenu {
+          left: 100%;
+          top: 0; } }
+
+.tulia-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px; }
+  .tulia-gallery .tulia-gallery-item {
+    flex: 1 1 33.3333%;
+    max-width: 33.3333%;
+    padding: 0 10px;
+    margin-bottom: 10px; }
+
+
+/*# sourceMappingURL=default-frontend.css.map*/

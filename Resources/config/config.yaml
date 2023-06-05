@@ -1,0 +1,160 @@
+framework:
+    translator:
+        paths:
+            - '%tuliacms/theme.tulia.lawyer%/Resources/translations'
+cms:
+    public_paths:
+        -
+            source: '%tuliacms/theme.tulia.lawyer%/Resources/public/theme/dist'
+            target: /theme/tulia/lawyer/theme
+        -
+            source: '%tuliacms/theme.tulia.lawyer%/Resources/public/tulia-editor-blocks/dist'
+            target: /theme/tulia/lawyer/tulia-editor-blocks
+    assetter:
+        assets:
+            tulia.lawyer.main:
+                require:
+                    - font_awesome
+                    - frontend
+                    - jquery
+                    - parallax.js
+                styles:
+                    - 'https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap'
+                    - /assets/theme/tulia/lawyer/theme/theme.css
+                scripts:
+                    - /assets/theme/tulia/lawyer/theme/theme.js
+                group: head
+                included:
+                    - bootstrap
+                    - js_cookie
+            tulia.lawyer.editor.blocks:
+                scripts:
+                    - /assets/theme/tulia/lawyer/tulia-editor-blocks/theme-tulia-editor-blocks.js
+                collection: tulia_editor
+    theme:
+        configuration:
+            Tulia/Lawyer:
+                imports:
+                    collections:
+                        singlepage:
+                            name: Singlepage
+                            filepath: '/Resources/imports/singlepage.json'
+                            showreel: '/Resources/public/theme/src/images/showreel.jpg'
+                        multipage:
+                            name: Multipage
+                            filepath: '/Resources/imports/multipage.json'
+                            showreel: '/Resources/public/theme/src/images/showreel.jpg'
+                translation_domain: tulia.lawyer-theme
+                css_framework: bootstrap-5
+                configuration:
+                    base:
+                        assets:
+                            - tulia.lawyer.main
+                        menu_spaces:
+                            - { name: mainmenu, label: 'Main menu' }
+                            - { name: footer-links, label: 'Footer - Links (middle)' }
+                        widget_spaces:
+                            - { name: footer-info, label: 'Footer - Info (left side)' }
+                            - { name: footer-contact, label: 'Footer - Contact (right side)' }
+                        image_sizes:
+                            - { name: lawyer-vertical-narrow, width: 310, height: 900 }
+                            - { name: lawyer-about, width: 700, height: 480 }
+                            - { name: lawyer-square, width: 500, height: 500 }
+                customizer:
+                    variables:
+                        :root:
+                            bs-primary: lawyer.color.primary
+                            bs-link-hover-color: lawyer.color.primary_accented
+                        .btn-primary:
+                            bs-btn-bg: lawyer.color.primary
+                            bs-btn-border-color: lawyer.color.primary
+                            bs-btn-hover-border-color: lawyer.color.primary
+                            bs-btn-active-bg: lawyer.color.primary_accented
+                            bs-btn-hover-bg: lawyer.color.primary_accented
+                        .navbar-nav:
+                            bs-nav-link-hover-color: lawyer.color.primary_accented
+                        .accordion:
+                            bs-accordion-active-color: lawyer.color.primary_accented
+                            bs-accordion-btn-focus-border-color: lawyer.color.primary
+                    builder:
+                        lawyer.colors:
+                            label: colors
+                            controls:
+                                lawyer.color.primary:
+                                    type: colorpicker
+                                    label: primaryColor
+                                    value: '#b08f58'
+                                    transport: postMessage
+                                lawyer.color.primary_accented:
+                                    type: colorpicker
+                                    label: primaryColorAccented
+                                    value: '#9d7f3d'
+                                    transport: postMessage
+                        lawyer.header:
+                            label: header
+                        lawyer.header.topbar:
+                            label: headerTopbar
+                            parent: lawyer.header
+                            controls:
+                                lawyer.header.topbar.show:
+                                    label: headerTopbarShow
+                                    type: yes_no
+                                    value: 'yes'
+                                lawyer.header.topbar.textLeft:
+                                    label: headerTopbarTextLeft
+                                    help: headerTopbarTextLeftHelp
+                                    value: 'Quisque lacinia venenatis est, a ullamcorper.'
+                                    transport: postMessage
+                                lawyer.header.topbar.textRight:
+                                    label: headerTopbarTextRight
+                                    help: headerTopbarTextRightHelp
+                                    value: 'Any questions? <a href="tel:023 555-34-54">023 555-34-54</a>'
+                                    transport: postMessage
+                        lawyer.header.staticHero:
+                            label: staticHero
+                            parent: lawyer.header
+                            controls:
+                                lawyer.header.staticHero.backgroundImage:
+                                    label: staticHeroBackgroundImage
+                                    type: filepicker
+                                lawyer.header.staticHero.aboveLine:
+                                    label: staticHeroAboveLine
+                                    value: 'Welcome to'
+                                    transport: postMessage
+                                lawyer.header.staticHero.headline:
+                                    label: staticHeroHeadline
+                                    value: 'LAWYER'
+                                    transport: postMessage
+                                lawyer.header.staticHero.description:
+                                    label: staticHeroDescription
+                                    value: 'Sed dignissim tellus justo, at feugiat arcu condimentum id. Class aptent taciti sociosqu ad litora torquent.'
+                                    transport: postMessage
+                        lawyer.footer:
+                            label: footer
+                            controls:
+                                lawyer.footer.backgroundImage:
+                                    label: footerBackgroundImage
+                                    type: filepicker
+                                lawyer.footer.copyrights:
+                                    label: copyrights
+                                    value: '2022 Lawyer - All rights reserved'
+                                    transport: postMessage
+                        lawyer.footer.socialMedia:
+                            label: footerSocialMedia
+                            parent: lawyer.footer
+                            controls:
+                                lawyer.footer.socialMedia.facebook:
+                                    label: Facebook
+                                    value: '#'
+                                lawyer.footer.socialMedia.twitter:
+                                    label: Twitter
+                                    value: '#'
+                                lawyer.footer.socialMedia.youtube:
+                                    label: Youtube
+                                    value: '#'
+                                lawyer.footer.socialMedia.instagram:
+                                    label: Instagram
+                                    value: '#'
+twig:
+    paths:
+        '%tuliacms/theme.tulia.lawyer%/Resources/views': null

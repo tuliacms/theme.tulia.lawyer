@@ -1,0 +1,13 @@
+{
+    "type": "library",
+    "name": "tuliacms/theme.tulia.lawyer",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "Tulia\\Theme\\Lawyer\\": "/"
+        }
+    },
+    "require": {
+        "tuliacms/cms": "*"
+    }
+}

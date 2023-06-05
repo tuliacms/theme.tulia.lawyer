@@ -1,0 +1,19 @@
+.block-features {
+    .block-feature-entry {
+        text-align: center;
+
+        .block-icon {
+            font-size: 40px;
+            color: var(--bs-primary);
+            display: inline-block;
+        }
+
+        .block-hl {
+            text-transform: uppercase;
+            font-size: 17px;
+            color: #333;
+            font-weight: bold;
+            font-family: $font-family-serif;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@import 'variables';
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/hamburgers/_sass/hamburgers/hamburgers';
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import "swiper/swiper-overwrite";
+@import "bootstrap/navbar";
+@import "bootstrap/buttons";
+@import "theme/mixins";
+@import "theme/header";
+@import "theme/footer";
+@import "theme/hero/static";
+@import "theme/blocks/blocks";
+@import "theme/page-title";
+@import "theme/nodes-list";
+
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--bs-primary);
+    font-weight: bold;
+    transition: .12s all;
+
+    &:hover {
+        color: var(--bs-link-hover-color);
+    }
+}
+
+.parallax-ready {
+    background: none !important;
+}

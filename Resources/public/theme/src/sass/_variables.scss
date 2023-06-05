@@ -1,0 +1,49 @@
+$primary: #b08f58;
+$body: #555;
+$font-family-sans-serif: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif: "Libre Baskerville", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$navbar-toggler-padding-y: .7rem;
+$navbar-light-toggler-border-color: $primary;
+$navbar-toggler-border-width: 3px;
+$navbar-nav-link-padding-x: 1.3rem;
+$navbar-nav-link-padding-y: 1.3rem;
+$navbar-light-active-color: $primary;
+$navbar-light-hover-color: $primary;
+$line-height-base: 1.7;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: bold;
+$input-btn-padding-y: 10px;
+$input-btn-padding-x: 20px;
+
+$border-radius: 0;
+$border-radius-sm: 0;
+$border-radius-lg: 0;
+$border-radius-xl: 0;
+$border-radius-2xl: 0;
+$border-radius-pill: 0;
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 4,
+    7: $spacer * 5,
+    8: $spacer * 6,
+    9: $spacer * 7,
+    10: $spacer * 8
+);
+
+$footer-bg-color: #4e5459;
+$footer-copyrights-bg-color: $footer-bg-color;
+
+$header-bg-color: #404449;
+$header-bg-opacity: 0.7;
+$header-topbar-height: 45px;
+$header-topbar-padding-y: 10px;
+
+$parallax-bg-color: #262828;
+$parallax-bg-opacity: 0.8;
