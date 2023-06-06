@@ -1,6 +1,7 @@
 {
     "type": "library",
     "name": "tuliacms/theme.tulia.lawyer",
+    "license": "MIT",
     "version": "0.0.1",
     "autoload": {
         "psr-4": {
